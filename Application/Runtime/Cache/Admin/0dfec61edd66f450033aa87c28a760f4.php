@@ -6,11 +6,11 @@
 		<meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
 		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="/Public/Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/Public/Admin/assets/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="/Public/Admin/assets/css/font-Open-Sans.css" />
-		<link rel="stylesheet" href="/Public/Admin/assets/css/ace.min.css" />
-		<link rel="stylesheet" href="/Public/Admin/assets/css/ace-rtl.min.css" />
+		<link href="/godzmooc/Public/Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/godzmooc/Public/Admin/assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="/godzmooc/Public/Admin/assets/css/font-Open-Sans.css" />
+		<link rel="stylesheet" href="/godzmooc/Public/Admin/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="/godzmooc/Public/Admin/assets/css/ace-rtl.min.css" />
 	</head>
 
 	<body class="login-layout">
@@ -22,8 +22,7 @@
 							<div class="center">
 								<h1>
 									<i class="icon-leaf green"></i>
-									<span class="red">网易</span>
-									<span class="white">云课堂</span>
+									<span class="white">GodZmooc</span>
 								</h1>
 								<h4 class="blue">&copy; Three Giantpeople</h4>
 							</div>
@@ -41,7 +40,7 @@
 
 											<div class="space-6"></div>
 
-											<form action="/admin.php/Login/login" method = "post">
+											<form action="/godzmooc/admin.php/Login/login" method = "post">
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">

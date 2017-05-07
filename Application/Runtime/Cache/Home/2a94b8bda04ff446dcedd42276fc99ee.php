@@ -4,22 +4,22 @@
 	<title><?php echo ($configs["title"]); ?></title>
 	<meta name="keywords" content="<?php echo ($configs["keywords"]); ?>">
 	<meta name="description" content="<?php echo ($configs["description"]); ?>">
-<script type="text/javascript" async src="/Public/Home/js/ga.js"></script>
-<script src="/Public/Home/js/jquery.js" type="text/javascript"></script>
-<script src="/Public/Home/js/ajax.js" type="text/javascript"></script>
-<link href="/Public/Home/css/public.css" type="text/css" rel="stylesheet">
-<link href="/Public/Home/css/index.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" async src="/godzmooc/Public/Home/js/ga.js"></script>
+<script src="/godzmooc/Public/Home/js/jquery.js" type="text/javascript"></script>
+<script src="/godzmooc/Public/Home/js/ajax.js" type="text/javascript"></script>
+<link href="/godzmooc/Public/Home/css/public.css" type="text/css" rel="stylesheet">
+<link href="/godzmooc/Public/Home/css/index.css" type="text/css" rel="stylesheet">
 
 </head>
 <body class="m-index auto-1449466856996-parent" style="padding-top: 0px;">
 <script></script>
 <script type="text/javascript">window.navNotFixed=!1;window.isNavIndex=!0;</script>
 		<div id="login1">
-			<div><a href="/index.php/Detail/personal/id/<?php echo ($_SESSION["id"]); ?>"><?php echo ($lo["username"]); ?></a></div>
-			<div><a href="/index.php/Detail/personalCenter/id/<?php echo ($lo["id"]); ?>">个人主页</a></div>
-			<div><a href="/index.php/User/advice/id/<?php echo ($lo["id"]); ?>">反馈意见</a></div>
-			<div><a href="/index.php/Detail/index/id/<?php echo ($lo["id"]); ?>">设置</a></div>
-			<div><a href="/index.php/Index/logout">退出</a></div>
+			<div><a href="/godzmooc/index.php/Detail/personal/id/<?php echo ($_SESSION["id"]); ?>"><?php echo ($lo["username"]); ?></a></div>
+			<div><a href="/godzmooc/index.php/Detail/personalCenter/id/<?php echo ($lo["id"]); ?>">个人主页</a></div>
+			<div><a href="/godzmooc/index.php/User/advice/id/<?php echo ($lo["id"]); ?>">反馈意见</a></div>
+			<div><a href="/godzmooc/index.php/Detail/index/id/<?php echo ($lo["id"]); ?>">设置</a></div>
+			<div><a href="/godzmooc/index.php/Index/logout">退出</a></div>
 		</div>
 <div>
 	<div class="m-indextopnav" id="j-indextopnav">
@@ -27,9 +27,9 @@
 		<!-- 登录界面 -->
       <div class="topheader f-pr f-cb">
         <div class="logo f-fl f-cb">
-		  <img class="f-fl img" usemap="#Map" src="/Public/Upload/<?php echo ($configs["logo"]); ?>" alt="网易云课堂" width="500" height="100">
+		  <img class="f-fl img" usemap="#Map" src="/godzmooc/Public/Upload/<?php echo ($configs["logo"]); ?>" alt="网易云课堂" width="500" height="100">
           <map name="Map">
-            <area hidefocus="true" data-index="网易云课堂logo" title="网易云课堂" target="_self" href="" coords="56,40,250,75" shape="RECT">
+            <area hidefocus="true" data-index="网易云课堂logo" title="网易云课堂" target="_self" href="/godzmooc" coords="56,40,250,75" shape="RECT">
           </map>
         </div>
         <script>window.huanbao = '';</script>
@@ -37,7 +37,7 @@
 		<?php if($lo["id"] == null): ?><!-- 未登录显示的页面 -->
 			<div class="userinfo f-fr f-cb f-pr">
 				<div class="unlogin f-fr f-cb">
-				<a  href="/index.php/Login/index.html" class="f-fr j-nav-loginBtn" id="j-login" data-index="登陆注册">登录/注册</a>
+				<a  href="/godzmooc/index.php/Login/index.html" class="f-fr j-nav-loginBtn" id="j-login" data-index="登陆注册">登录/注册</a>
 				<p class="f-fc3 f-f0 f-fr" style="color:#333;">支持网易邮箱、QQ、微博号</p>
 				</div>
 			</div>
@@ -46,14 +46,14 @@
 			
 			<div id="login" class="name j-userinfo">
 				<div class="f-pr">
-					<a href="/index.php/Info/index/id/<?php echo ($lo["id"]); ?>">
+					<a href="/godzmooc/index.php/Info/index/id/<?php echo ($lo["id"]); ?>">
 						消息
 					</a>
-					<a href="/index.php">
+					<a href="/godzmooc/index.php">
 						课程包
 					</a>
-					<a href="/index.php" style="" class="face">
-						<img class="headImg" src="/Public/Upload/<?php echo ($_SESSION["pic"]); ?>"/>
+					<a href="/godzmooc/index.php" style="" class="face">
+						<img class="headImg" src="/godzmooc/Public/Upload/<?php echo ($_SESSION["pic"]); ?>"/>
 					</a>
 				</div>
 			</div><?php endif; ?>
@@ -74,7 +74,7 @@
 			  <?php if(is_array($types)): foreach($types as $key=>$types): ?><div class="item j-item " id="auto-id-14494668570<?php echo ($num); ?>">
                 <div class="curbg"></div>
                 <div class="inn">
-					<a data-index="<?php echo ($types["name"]); ?>" id="<?php echo ($types["id"]); ?>" target="_blank" href="/index.php/type/index/id/<?php echo ($types["id"]); ?>" data-name="" class="f-f0 first"><?php echo ($types["name"]); ?></a>
+					<a data-index="<?php echo ($types["name"]); ?>" id="<?php echo ($types["id"]); ?>" target="_blank" href="/godzmooc/index.php/type/index/id/<?php echo ($types["id"]); ?>" data-name="" class="f-f0 first"><?php echo ($types["name"]); ?></a>
                 </div>
               </div>
 			  <b style="display:none;"><?php echo ($num++); ?></b><?php endforeach; endif; ?>
@@ -102,7 +102,7 @@
                 <a href = "#">更多</a><br>
               </p>
               <a href = "">
-				<img src = "/Public/Home/imgs/74826827C7C42F618FBD57644BB018FB.png" class="f-pa pic" alt = "图片">
+				<img src = "/godzmooc/Public/Home/imgs/74826827C7C42F618FBD57644BB018FB.png" class="f-pa pic" alt = "图片">
 			  </a>
   		    </div>
 			
@@ -125,7 +125,7 @@
                 <a href="">更多</a><br>
                </p>
                <a href="">
-				<img src="/Public/Home/imgs/8F59299CC0954CA71D2D265B94DD8367.png" class="f-pa pic" alt="图片">
+				<img src="/godzmooc/Public/Home/imgs/8F59299CC0954CA71D2D265B94DD8367.png" class="f-pa pic" alt="图片">
 			   </a>
 		    </div>
 			
@@ -143,7 +143,7 @@
                 <a href="">更多</a><br>
               </p>
               <a href=""">
-				<img src="/Public/Home/imgs/EE5D341A47C8811DE7A64190F9956E63.png" class="f-pa pic" alt="图片">
+				<img src="/godzmooc/Public/Home/imgs/EE5D341A47C8811DE7A64190F9956E63.png" class="f-pa pic" alt="图片">
   			  </a>
 			</div>
 			
@@ -163,7 +163,7 @@
               <a href="">更多</a><br>
              </p>
               <a href="">
-				<img src="/Public/Home/imgs/79D70AD3168F98C5C287DB84190B66C5.png" class="f-pa pic" alt="图片">
+				<img src="/godzmooc/Public/Home/imgs/79D70AD3168F98C5C287DB84190B66C5.png" class="f-pa pic" alt="图片">
 			 </a>
 			</div>
 			
@@ -184,7 +184,7 @@
                 <a href="">更多</a><br>
               </p>
               <a href="">
-				<img src="/Public/Home/imgs/E00E907512ECBAE31B8BB180FBCE6312.png" class="f-pa pic" alt="图片">
+				<img src="/godzmooc/Public/Home/imgs/E00E907512ECBAE31B8BB180FBCE6312.png" class="f-pa pic" alt="图片">
  			  </a>
 		    </div>
           
@@ -192,28 +192,28 @@
         </div>
 		
         <div class="mainnav f-cb j-navFind">
-		  <a data-index="首页" class="nitem f-f0" href="/index.php/Index/index.html" hidefocus="true">首页</a>
+		  <a data-index="首页" class="nitem f-f0" href="/godzmooc/index.php/Index/index.html" hidefocus="true">首页</a>
           <div class="f-cb nitem f-f0 x-hoverItem"> <span>课程体系</span>
             <div class="f-pa u-navdropmenu x-child">
 				<span class="arrr f-pa"></span>
-				<a data-index="大学计算机专业" class="f-f0 dropitem" href="/index.php/major/major_inter" hidefocus="true"> <span>大学计算机专业</span>
+				<a data-index="大学计算机专业" class="f-f0 dropitem" href="/godzmooc/index.php/major/major_inter" hidefocus="true"> <span>大学计算机专业</span>
 				</a>
-				<a data-index="互联网职业技能" class="f-f0 dropitem" href="/index.php/major/major_skill" hidefocus="true">
+				<a data-index="互联网职业技能" class="f-f0 dropitem" href="/godzmooc/index.php/major/major_skill" hidefocus="true">
 					<span>互联网职业技能</span>
 				</a>
-				<a data-index="金融专业" class="f-f0 dropitem last" href="/index.php/major/major_money" hidefocus="true">
+				<a data-index="金融专业" class="f-f0 dropitem last" href="/godzmooc/index.php/major/major_money" hidefocus="true">
 					<span>金融专业</span>
 				</a>
 			</div>
           </div>
-          <a data-index="微专业" class="nitem f-f0" href="/index.php/major/major_small" hidefocus="true">微专业</a>
+          <a data-index="微专业" class="nitem f-f0" href="/godzmooc/index.php/major/major_small" hidefocus="true">微专业</a>
 		  <div class="nitem f-f0 x-hoverItem" hidefocus="true"> <span class="j-dropmenubtn" data-href="/client/download.htm" id="auto-id-1449466857063">下载APP</span>
             <div class="u-navapptip f-pa x-child">
               <div class="arrr f-pa"></div>
-              <img src="/Public/Home/imgs/nav_qrcode.png" class="ewm f-fl" alt="下载APP" title="下载APP">
+              <img src="/godzmooc/Public/Home/imgs/nav_qrcode.png" class="ewm f-fl" alt="下载APP" title="下载APP">
               <div class="rcon f-fr">
                 <h4 class="txt">扫码下载官方App</h4>
-                <a data-index="appstore下载" href="/index.php/User/download" target="_blank" class="store apple"><img src="/Public/Home/imgs/upload(1).png" width="150px"></a> <a data-index="android下载" href="/index.php/User/download" target="_blank" class="store android"><img src="/Public/Home/imgs/upload(2).png"></a> </div>
+                <a data-index="appstore下载" href="/godzmooc/index.php/User/download" target="_blank" class="store apple"><img src="/godzmooc/Public/Home/imgs/upload(1).png" width="150px"></a> <a data-index="android下载" href="/godzmooc/index.php/User/download" target="_blank" class="store android"><img src="/godzmooc/Public/Home/imgs/upload(2).png"></a> </div>
             </div>
           </div>
           <a class="nitem f-f0" data-index="学习中心" href="" hidefocus="true">学习中心</a>
@@ -239,13 +239,13 @@
 	<!-- 滚屏部分 -->
 	<div id="pic">
 		<div>
-			<a href="/index.php/Type/index"><img src="/Public/Home/imgs/jp.jpg" style="display:none"/></a>
-			<a href="/index.php/Type/index"><img src="/Public/Home/imgs/girl.jpg" style="display:none"/></a>
-			<a href="/index.php/Type/index"><img src="/Public/Home/imgs/go.png" style="display:none"/></a>
-			<a href="/index.php/Type/index"><img src="/Public/Home/imgs/she.jpg" style="display:none"/></a>
-			<a href="/index.php/Type/index"><img src="/Public/Home/imgs/new.png" style="display:none"/></a>
-			<a href="/index.php/Type/index"><img src="/Public/Home/imgs/qz.png" style="display:none"/></a>
-			<a href="/index.php/Type/index"><img src="/Public/Home/imgs/four.png"/></a>
+			<a href="/godzmooc/index.php/Type/index"><img src="/godzmooc/Public/Home/imgs/jp.jpg" style="display:none"/></a>
+			<a href="/godzmooc/index.php/Type/index"><img src="/godzmooc/Public/Home/imgs/girl.jpg" style="display:none"/></a>
+			<a href="/godzmooc/index.php/Type/index"><img src="/godzmooc/Public/Home/imgs/go.png" style="display:none"/></a>
+			<a href="/godzmooc/index.php/Type/index"><img src="/godzmooc/Public/Home/imgs/she.jpg" style="display:none"/></a>
+			<a href="/godzmooc/index.php/Type/index"><img src="/godzmooc/Public/Home/imgs/new.png" style="display:none"/></a>
+			<a href="/godzmooc/index.php/Type/index"><img src="/godzmooc/Public/Home/imgs/qz.png" style="display:none"/></a>
+			<a href="/godzmooc/index.php/Type/index"><img src="/godzmooc/Public/Home/imgs/four.png"/></a>
 			<div id="a">
 				<div></div>
 				<div></div>
@@ -262,12 +262,12 @@
   <div class="m-micro">
     <div class="g-flow f-pr">
       <div class="f-cb m-micro-wrap">
-        <div class="f-fl item0"> <a href="/index.php/course/course_list.html" target="_blank"> <img src="/Public/Home/imgs/microicon.png" alt="微专业介绍图">
+        <div class="f-fl item0"> <a href="/godzmooc/index.php/course/course_list.html" target="_blank"> <img src="/godzmooc/Public/Home/imgs/microicon.png" alt="微专业介绍图">
           <p class="intro f-f0">一种专业有效的职业培训方案</p>
           </a> </div>
         <div class="cntwrap" id="j-cntwrap">
           <div class="cntlist" id="j-cntlist">
-            <div class="item f-fl"> <a href="/index.php/course/course_list.html" data-index="1" data-name="iOS开发工程师_三个月学会iOS构建" target="_blank">
+            <div class="item f-fl"> <a href="/godzmooc/index.php/course/course_list.html" data-index="1" data-name="iOS开发工程师_三个月学会iOS构建" target="_blank">
               <div class="tit f-f0 f-thide">5-iOS开发工程师</div>
               <div class="tip f-f0 f-thide">三个月学会iOS构建</div>
               </a> </div>
@@ -309,16 +309,16 @@
     </div>
   </div>
   <div class="g-flow  m-block-it" id="j-mftj">
-    <div class="g-container f-cb"> <a href="/index.php/course/course_list.html" target="_blank"> <img src="/Public/Home/imgs/mfhk.png" class="g-cell" alt="免费好课推荐"> </a>
+    <div class="g-container f-cb"> <a href="/godzmooc/index.php/course/course_list.html" target="_blank"> <img src="/godzmooc/Public/Home/imgs/mfhk.png" class="g-cell" alt="免费好课推荐"> </a>
       <div class="f-fl" id="mfhk">
 	    
         <div class="u-index-list f-cb">
 		<?php if(is_array($videos)): foreach($videos as $key=>$video): ?><div class="u-cover u-find-cover first" id="auto-id-1449504749256">
-            <div class="wrap f-cb"> <a href="/index.php/Course/index/id/<?php echo ($video["id"]); ?>" target="_blank" class="j-href wrap" data-href="/course/introduction/1522003.htm" data-index="1" data-name="女神美腿操">
+            <div class="wrap f-cb"> <a href="/godzmooc/index.php/Course/index/id/<?php echo ($video["id"]); ?>" target="_blank" class="j-href wrap" data-href="/course/introduction/1522003.htm" data-index="1" data-name="女神美腿操">
 		  
 			 <div class="img">
 			 
-                <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Upload/<?php echo ($video["video"]); ?>" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/35A9269EE09341F003BE51B48A82515D.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="女神美腿操" id="auto-id-1449504749273"> </div>
+                <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Upload/<?php echo ($video["video"]); ?>" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/35A9269EE09341F003BE51B48A82515D.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="女神美腿操" id="auto-id-1449504749273"> </div>
                 <div class="tit">
                   <h3 class="f-thide"><?php echo ($video["title"]); ?></h3>
                   <h3 class="f-thide"><?php echo ($video["tname"]); ?></h3>
@@ -357,15 +357,15 @@
         <div class="g-mn2c">
           <div class="g-container">
             <div class="g-cell"> <a href="http://study.163.com/course/introduction/940019.htm#/courseDetail" data-index="左边" data-name="英语口语革命" target="_blank">
-              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504748143" src="/Public/Home/imgs/index.png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/842CF923C1BB105949C5DDC8575047A9.png?imageView&amp;thumbnail=225y466&amp;quality=100_225x466x1x95.png" width="225" height="466" alt="英语口语革命"> </div>
+              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504748143" src="/godzmooc/Public/Home/imgs/index.png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/842CF923C1BB105949C5DDC8575047A9.png?imageView&amp;thumbnail=225y466&amp;quality=100_225x466x1x95.png" width="225" height="466" alt="英语口语革命"> </div>
               </a> </div>
             <div id="cxkctj">
 			
               <div class="u-index-list f-cb">
 			  <?php if(is_array($goods)): foreach($goods as $key=>$good): ?><div class="u-cover u-find-cover first" id="auto-id-1449504749390">
-                  <div class="wrap f-cb"> <a  href="/index.php/Course/index/id/<?php echo ($good["id"]); ?>"target="_blank" class="j-href wrap" data-href="/course/introduction/1337018.htm" data-index="1" data-name="向《经济学人》学图表">
+                  <div class="wrap f-cb"> <a  href="/godzmooc/index.php/Course/index/id/<?php echo ($good["id"]); ?>"target="_blank" class="j-href wrap" data-href="/course/introduction/1337018.htm" data-index="1" data-name="向《经济学人》学图表">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Upload/<?php echo ($good["video"]); ?>" id="auto-id-1449504749421"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Upload/<?php echo ($good["video"]); ?>" id="auto-id-1449504749421"> </div>
                       <div class="tit">
                         <h3 class="f-thide"><?php echo ($good["title"]); ?></h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -403,7 +403,7 @@
           </ul>
         </div>
         <div class="g-cell1"> <a href="http://study.163.com/course/introduction/608026.htm#/courseDetail" data-index="小图" data-name="小图" target="_blank">
-          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504748145" src="/Public/Home/imgs/index(1).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/012D303308DF28AE2365CF57647CF72D.png?imageView&amp;thumbnail=225y324&amp;quality=100_225x324x1x95.png" width="225" height="324" alt="雷子思维导图"> </div>
+          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504748145" src="/godzmooc/Public/Home/imgs/index(1).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/012D303308DF28AE2365CF57647CF72D.png?imageView&amp;thumbnail=225y324&amp;quality=100_225x324x1x95.png" width="225" height="324" alt="雷子思维导图"> </div>
           </a> </div>
       </div>
 	  
@@ -417,8 +417,8 @@
     <ul id="j-recteachers" class="m-lectors f-cb">
 		
 	<?php if(is_array($teachers)): foreach($teachers as $key=>$teacher): ?><li class="lector f-fl f-pr"> 
-			<a href="/index.php/Teacher/index/id/<?php echo ($teacher["id"]); ?>" target="_blank" class="head" data-index="1" data-name="翁恺" title="翁恺"> 
-			<img class="" id="" src="/Public/Upload/<?php echo ($teacher["photo"]); ?>" width="240" height="240" alt="teacher.name">
+			<a href="/godzmooc/index.php/Teacher/index/id/<?php echo ($teacher["id"]); ?>" target="_blank" class="head" data-index="1" data-name="翁恺" title="翁恺"> 
+			<img class="" id="" src="/godzmooc/Public/Upload/<?php echo ($teacher["photo"]); ?>" width="240" height="240" alt="teacher.name">
 			<h3 class="f-pa f-fcf info f-thide"> 
 			<span class="name"><?php echo ($teacher["tname"]); ?></span>
 			
@@ -448,14 +448,14 @@
         <div class="g-mn2c" id="auto-id-1449504749519">
           <div class="g-container" id="auto-id-1449504749518">
             <div class="g-cell2"> <a href="http://study.163.com/course/introduction/1564012.htm#/courseDetail" target="_blank" data-index="左边" data-name="黑客">
-              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749494" src="/Public/Home/imgs/index(6).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/485C48CA78D4C4FBBA6630B89D022156.png?imageView&amp;thumbnail=470y184&amp;quality=100_470x184x1x95.png" width="470" height="184" alt="黑客"> </div>
+              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749494" src="/godzmooc/Public/Home/imgs/index(6).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/485C48CA78D4C4FBBA6630B89D022156.png?imageView&amp;thumbnail=470y184&amp;quality=100_470x184x1x95.png" width="470" height="184" alt="黑客"> </div>
               </a> </div>
             <div id="3_kctj">
               <div class="u-index-list f-cb" id="auto-id-1449504749517">
                 <div class="u-cover u-find-cover first" id="auto-id-1449504749285">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1546006.htm" data-index="1" data-name="VMware Workstation虚拟机入门">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(9).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/955EDDEEBF7561403BE52C5EEA916A07.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="VMware Workstation虚拟机入门" id="auto-id-1449504749498"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(9).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/955EDDEEBF7561403BE52C5EEA916A07.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="VMware Workstation虚拟机入门" id="auto-id-1449504749498"> </div>
                       <div class="tit">
                         <h3 class="f-thide">VMware&nbsp;Workstation虚拟机入门</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -477,7 +477,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749290">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1000035.htm" data-index="2" data-name="用Python做些事">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(10).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/CD83EA171A4255A2438329E45536B2AD.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="用Python做些事" id="auto-id-1449504749500"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(10).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/CD83EA171A4255A2438329E45536B2AD.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="用Python做些事" id="auto-id-1449504749500"> </div>
                       <div class="tit">
                         <h3 class="f-thide">用Python做些事</h3>
                         <div class="continued sign ">老师参与</div>
@@ -499,7 +499,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749295">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/382025.htm" data-index="3" data-name="产品经理入门秘籍">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(12).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/9D626CE165B3086A141E05AFE7849D94.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="产品经理入门秘籍" id="auto-id-1449504749502"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(12).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/9D626CE165B3086A141E05AFE7849D94.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="产品经理入门秘籍" id="auto-id-1449504749502"> </div>
                       <div class="tit">
                         <h3 class="f-thide">产品经理入门秘籍</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -521,7 +521,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749300">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1454006.htm" data-index="4" data-name="AutoCAD快速制图">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(13).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/AE8780F30AB4C9C9FCD559DC4F0921F8.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="AutoCAD快速制图" id="auto-id-1449504749504"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(13).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/AE8780F30AB4C9C9FCD559DC4F0921F8.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="AutoCAD快速制图" id="auto-id-1449504749504"> </div>
                       <div class="tit">
                         <h3 class="f-thide">AutoCAD快速制图</h3>
                         <div class="continued sign ">老师参与</div>
@@ -543,7 +543,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749305">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/647009.htm" data-index="5" data-name="你也能做的好莱坞特效">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(14).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/96F075F427A07F5EF2F893BE185C3480.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="你也能做的好莱坞特效" id="auto-id-1449504749506"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(14).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/96F075F427A07F5EF2F893BE185C3480.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="你也能做的好莱坞特效" id="auto-id-1449504749506"> </div>
                       <div class="tit">
                         <h3 class="f-thide">你也能做的好莱坞特效</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -565,7 +565,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749310">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1007013.htm" data-index="6" data-name="SPSS入门与提高">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(15).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6D5CA38B848956B3F49602A1DC37C5A0.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="SPSS入门与提高" id="auto-id-1449504749508"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(15).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6D5CA38B848956B3F49602A1DC37C5A0.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="SPSS入门与提高" id="auto-id-1449504749508"> </div>
                       <div class="tit">
                         <h3 class="f-thide">SPSS入门与提高</h3>
                         <div class="continued sign ">老师参与</div>
@@ -599,7 +599,7 @@
           </ul>
         </div>
         <div class="g-cell1"> <a href="http://study.163.com/course/introduction/993001.htm#/courseDetail" target="_blank" data-index="右边" data-name="http://nos.netease.com/edu-image/DD3BE8EB952917BB1AE735744F15C281.png?imageView&amp;thumbnail=225y248&amp;quality=100">
-          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749496" src="/Public/Home/imgs/index(7).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/DD3BE8EB952917BB1AE735744F15C281.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="引爆潮流的秘密"> </div>
+          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749496" src="/godzmooc/Public/Home/imgs/index(7).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/DD3BE8EB952917BB1AE735744F15C281.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="引爆潮流的秘密"> </div>
           </a> </div>
       </div>
     </div>
@@ -615,14 +615,14 @@
         <div class="g-mn2c">
           <div class="g-container">
             <div class="g-cell"> <a href="http://study.163.com/course/introduction/1545001.htm?sk=1#/courseDetail" target="_blank" data-index="左边" data-name="【简快阅读37】 天天25小时">
-              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749526" src="/Public/Home/imgs/index(8).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/8D4496D63D47D4EF55DB2F1BDD91E59B.png?imageView&amp;thumbnail=470y184&amp;quality=100_225x390x1x95.png" width="225" height="390" alt="【简快阅读37】 天天25小时"> </div>
+              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749526" src="/godzmooc/Public/Home/imgs/index(8).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/8D4496D63D47D4EF55DB2F1BDD91E59B.png?imageView&amp;thumbnail=470y184&amp;quality=100_225x390x1x95.png" width="225" height="390" alt="【简快阅读37】 天天25小时"> </div>
               </a> </div>
             <div id="18_kctj">
               <div class="u-index-list f-cb">
                 <div class="u-cover u-find-cover first" id="auto-id-1449504749320">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/260001.htm" data-index="1" data-name="职场新人公文写作训练">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(16).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/7BE7ECBA33499995EB8C93B720922EC7.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="职场新人公文写作训练" id="auto-id-1449504749528"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(16).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/7BE7ECBA33499995EB8C93B720922EC7.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="职场新人公文写作训练" id="auto-id-1449504749528"> </div>
                       <div class="tit">
                         <h3 class="f-thide">职场新人公文写作训练</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -644,7 +644,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749325">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1374004.htm" data-index="2" data-name="玩转搜索引擎">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(17).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/1FB6B2002B9E2AE4A298CFC7FA7A5729.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="玩转搜索引擎" id="auto-id-1449504749530"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(17).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/1FB6B2002B9E2AE4A298CFC7FA7A5729.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="玩转搜索引擎" id="auto-id-1449504749530"> </div>
                       <div class="tit">
                         <h3 class="f-thide">玩转搜索引擎</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -666,7 +666,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749330">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1000037.htm" data-index="3" data-name="如何在群面中脱颖而出？">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(18).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/7E1251FBCCBB5A7673A3DC2C34EE893E.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="如何在群面中脱颖而出？" id="auto-id-1449504749532"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(18).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/7E1251FBCCBB5A7673A3DC2C34EE893E.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="如何在群面中脱颖而出？" id="auto-id-1449504749532"> </div>
                       <div class="tit">
                         <h3 class="f-thide">如何在群面中脱颖而出？</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -688,7 +688,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749335">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/214004.htm" data-index="4" data-name="如何制作商业PPT">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(19).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/1346D87ECA36B880CD19D2DF0642CC9E.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="如何制作商业PPT" id="auto-id-1449504749536"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(19).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/1346D87ECA36B880CD19D2DF0642CC9E.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="如何制作商业PPT" id="auto-id-1449504749536"> </div>
                       <div class="tit">
                         <h3 class="f-thide">如何制作商业PPT</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -710,7 +710,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749340">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/832005.htm" data-index="5" data-name="麦肯锡教我的写作武器">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(20).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/64048853F307B0642CA9C0A4E8E18CCC.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="麦肯锡教我的写作武器" id="auto-id-1449504749538"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(20).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/64048853F307B0642CA9C0A4E8E18CCC.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="麦肯锡教我的写作武器" id="auto-id-1449504749538"> </div>
                       <div class="tit">
                         <h3 class="f-thide">麦肯锡教我的写作武器</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -732,7 +732,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749345">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/982033.htm" data-index="6" data-name="正确撰写商务邮件">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(21).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/F0E1A0906F3A7E6B40C2AF9A9980B469.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="正确撰写商务邮件" id="auto-id-1449504749540"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(21).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/F0E1A0906F3A7E6B40C2AF9A9980B469.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="正确撰写商务邮件" id="auto-id-1449504749540"> </div>
                       <div class="tit">
                         <h3 class="f-thide">正确撰写商务邮件</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -766,7 +766,7 @@
           </ul>
         </div>
         <div class="g-cell1"> <a href="http://study.163.com/course/introduction.htm?courseId=1520002#/courseDetail" target="_blank" data-index="右边" data-name="http://nos.netease.com/edu-image/3163EFADCADAA0EA52035AC44B3FC1F2.png?imageView&amp;thumbnail=225y248&amp;quality=100">
-          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749534" src="/Public/Home/imgs/index(9).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/3163EFADCADAA0EA52035AC44B3FC1F2.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="专业硕士逻辑：冲刺串讲"> </div>
+          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749534" src="/godzmooc/Public/Home/imgs/index(9).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/3163EFADCADAA0EA52035AC44B3FC1F2.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="专业硕士逻辑：冲刺串讲"> </div>
           </a> </div>
       </div>
     </div>
@@ -782,7 +782,7 @@
         <div class="g-mn2c">
           <div class="g-container">
             <div class="g-cell2"> <a href="http://study.163.com/course/introduction/1228001.htm#/courseDetail" target="_blank" data-index="左边" data-name="无痛职场英语口语">
-              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749550" src="/Public/Home/imgs/index(10).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/F7CF5461D844436F5CE2723954A26528.png?imageView&amp;thumbnail=470y184&amp;quality=100_470x184x1x95.png" width="470" height="184" alt="无痛职场英语口语"> </div>
+              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749550" src="/godzmooc/Public/Home/imgs/index(10).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/F7CF5461D844436F5CE2723954A26528.png?imageView&amp;thumbnail=470y184&amp;quality=100_470x184x1x95.png" width="470" height="184" alt="无痛职场英语口语"> </div>
               </a> 
 			</div>
             <div id="28_kctj">
@@ -790,7 +790,7 @@
                 <div class="u-cover u-find-cover first" id="auto-id-1449504749464">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1456003.htm" data-index="1" data-name="书本上学不到的英语表达">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(22).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/ADE220CCE0A9BC38F7E635B6316A3F61.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="书本上学不到的英语表达" id="auto-id-1449504749552"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(22).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/ADE220CCE0A9BC38F7E635B6316A3F61.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="书本上学不到的英语表达" id="auto-id-1449504749552"> </div>
                       <div class="tit">
                         <h3 class="f-thide">书本上学不到的英语表达</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -812,7 +812,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749469">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1255001.htm" data-index="2" data-name="雅思写作精细30讲">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(23).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/9A01CF0B9975111C4B173F0E86AE0FB7.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="雅思写作精细30讲" id="auto-id-1449504749554"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(23).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/9A01CF0B9975111C4B173F0E86AE0FB7.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="雅思写作精细30讲" id="auto-id-1449504749554"> </div>
                       <div class="tit">
                         <h3 class="f-thide">雅思写作精细30讲</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -834,7 +834,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749474">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/268001.htm" data-index="3" data-name="Ohlala法语">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(24).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6A62238E143D7768E108BA2068C85037.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="Ohlala法语" id="auto-id-1449504749558"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(24).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6A62238E143D7768E108BA2068C85037.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="Ohlala法语" id="auto-id-1449504749558"> </div>
                       <div class="tit">
                         <h3 class="f-thide">Ohlala法语</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -856,7 +856,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749479">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/232009.htm" data-index="4" data-name="零基础学韩语">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(25).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/E9901AD9D81BC1FBD2AB4A5F99D9BA30.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="零基础学韩语" id="auto-id-1449504749560"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(25).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/E9901AD9D81BC1FBD2AB4A5F99D9BA30.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="零基础学韩语" id="auto-id-1449504749560"> </div>
                       <div class="tit">
                         <h3 class="f-thide">零基础学韩语</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -878,7 +878,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749484">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/657001.htm" data-index="5" data-name="旅游必学的基础日语">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(26).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/1E88827A5539695C8FAB473E2477302D.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="旅游必学的基础日语" id="auto-id-1449504749562"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(26).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/1E88827A5539695C8FAB473E2477302D.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="旅游必学的基础日语" id="auto-id-1449504749562"> </div>
                       <div class="tit">
                         <h3 class="f-thide">旅游必学的基础日语</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -900,7 +900,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749489">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/975006.htm" data-index="6" data-name="四级！要来了！">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(27).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/99EDE363987E37CB2E9B3B6946983924.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="四级！要来了！" id="auto-id-1449504749564"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(27).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/99EDE363987E37CB2E9B3B6946983924.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="四级！要来了！" id="auto-id-1449504749564"> </div>
                       <div class="tit">
                         <h3 class="f-thide">四级！要来了！</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -934,7 +934,7 @@
           </ul>
         </div>
         <div class="g-cell1"> <a href="http://study.163.com/course/introduction/926006.htm#/courseDetail" target="_blank" data-index="右边" data-name="http://nos.netease.com/edu-image/97CB9B466375B58C57ED674F4007DDCB.png?imageView&amp;thumbnail=225y248&amp;quality=100">
-          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749556" src="/Public/Home/imgs/index(11).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/97CB9B466375B58C57ED674F4007DDCB.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="看匹诺曹学韩语"> </div>
+          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749556" src="/godzmooc/Public/Home/imgs/index(11).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/97CB9B466375B58C57ED674F4007DDCB.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="看匹诺曹学韩语"> </div>
           </a> </div>
       </div>
     </div>
@@ -950,14 +950,14 @@
         <div class="g-mn2c">
           <div class="g-container">
             <div class="g-cell"> <a href="http://study.163.com/course/introduction.htm?courseId=1039031#/courseDetail" target="_blank" data-index="左边" data-name="文青速成——读诗赏句学修辞">
-              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749577" src="/Public/Home/imgs/index(12).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/D8536F84E93943A921678EBF017B7A67.png?imageView&amp;thumbnail=470y184&amp;quality=100_225x390x1x95.png" width="225" height="390" alt="文青速成——读诗赏句学修辞"> </div>
+              <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749577" src="/godzmooc/Public/Home/imgs/index(12).png" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/D8536F84E93943A921678EBF017B7A67.png?imageView&amp;thumbnail=470y184&amp;quality=100_225x390x1x95.png" width="225" height="390" alt="文青速成——读诗赏句学修辞"> </div>
               </a> </div>
             <div id="10001_kctj">
               <div class="u-index-list f-cb">
                 <div class="u-cover u-find-cover first" id="auto-id-1449504749355">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1438003.htm" data-index="1" data-name="三阶魔方初级入门">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(28).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/8BB05A8B10F53E66D646573ECE3BF478.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="三阶魔方初级入门" id="auto-id-1449504749579"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(28).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/8BB05A8B10F53E66D646573ECE3BF478.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="三阶魔方初级入门" id="auto-id-1449504749579"> </div>
                       <div class="tit">
                         <h3 class="f-thide">三阶魔方初级入门</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -979,7 +979,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749360">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/392006.htm" data-index="2" data-name="发现《黄帝内经》的生命智慧">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(29).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6BF7997EA1BC1A0654744496E52EDE70.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="发现《黄帝内经》的生命智慧" id="auto-id-1449504749581"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(29).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6BF7997EA1BC1A0654744496E52EDE70.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="发现《黄帝内经》的生命智慧" id="auto-id-1449504749581"> </div>
                       <div class="tit">
                         <h3 class="f-thide">发现《黄帝内经》的生命智慧</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -1001,7 +1001,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749365">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/984031.htm" data-index="3" data-name="20万年薪设计师养成记">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(30).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/9C6DF922E65FB890BB4A11F86353B420.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="20万年薪设计师养成记" id="auto-id-1449504749583"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(30).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/9C6DF922E65FB890BB4A11F86353B420.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="20万年薪设计师养成记" id="auto-id-1449504749583"> </div>
                       <div class="tit">
                         <h3 class="f-thide">20万年薪设计师养成记</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -1023,7 +1023,7 @@
                 <div class="u-cover u-find-cover" id="auto-id-1449504749370">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1459031.htm" data-index="4" data-name="轻松掌握15种构图法">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(31).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/D8687DE8021E919D9E255E1B89B933D1.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="轻松掌握15种构图法" id="auto-id-1449504749587"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(31).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/D8687DE8021E919D9E255E1B89B933D1.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="轻松掌握15种构图法" id="auto-id-1449504749587"> </div>
                       <div class="tit">
                         <h3 class="f-thide">轻松掌握15种构图法</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -1045,7 +1045,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749375">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1564002.htm" data-index="5" data-name="2016年流年风水催运布局" id="auto-id-1449504749600">
                     <div class="img" id="auto-id-1449504749602">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(32).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/EE839CCAB18E752BB8227EBBFF8487E6.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="2016年流年风水催运布局" id="auto-id-1449504749589"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(32).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/EE839CCAB18E752BB8227EBBFF8487E6.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="2016年流年风水催运布局" id="auto-id-1449504749589"> </div>
                       <div class="tit">
                         <h3 class="f-thide">2016年流年风水催运布局</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -1067,7 +1067,7 @@
                 <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749380">
                   <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1455016.htm" data-index="6" data-name="用相机捕捉真实">
                     <div class="img">
-                      <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(33).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/0BA64BEC25C7B9D97EBF73657350CE90.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="用相机捕捉真实" id="auto-id-1449504749591"> </div>
+                      <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(33).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/0BA64BEC25C7B9D97EBF73657350CE90.png?imageView&amp;thumbnail=225y142&amp;quality=100_225x142x1x95.png?imageView&amp;thumbnail=225y142&amp;quality=100" alt="用相机捕捉真实" id="auto-id-1449504749591"> </div>
                       <div class="tit">
                         <h3 class="f-thide">用相机捕捉真实</h3>
                         <div class="continued sign f-dn">老师参与</div>
@@ -1101,7 +1101,7 @@
           </ul>
         </div>
         <div class="g-cell1"> <a href="http://study.163.com/course/introduction/1435021.htm#/courseDetail" target="_blank" data-index="右边" data-name="http://nos.netease.com/edu-image/6C14A17FC07226CD5AAEA3160D41BB21.png?imageView&amp;thumbnail=225y248&amp;quality=100">
-          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749585" src="/Public/Home/imgs/index(47)" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6C14A17FC07226CD5AAEA3160D41BB21.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="设计思维"> </div>
+          <div class="x-zoomImg"> <img class="j-llimg" id="auto-id-1449504749585" src="/godzmooc/Public/Home/imgs/index(47)" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://nos.netease.com/edu-image/6C14A17FC07226CD5AAEA3160D41BB21.png?imageView&amp;thumbnail=225y248&amp;quality=100_225x248x1x95.png" width="225" height="248" alt="设计思维"> </div>
           </a> </div>
       </div>
     </div>
@@ -1115,9 +1115,9 @@
   <div class="b-30"></div>
   
   <div class="m-ad g-container" id="j-ad" style="margin-left:100px;">
-	<?php if(is_array($advs)): foreach($advs as $key=>$advs): switch($advs["place"]): case "2": ?><iframe scrolling="no" seamless src="/Public/Upload/<?php echo ($advs["pic"]); ?>" frameborder="0" class="g-cell4" marginwidth="0" marginheight="0"></iframe><?php break;?>
+	<?php if(is_array($advs)): foreach($advs as $key=>$advs): switch($advs["place"]): case "2": ?><iframe scrolling="no" seamless src="/godzmooc/Public/Upload/<?php echo ($advs["pic"]); ?>" frameborder="0" class="g-cell4" marginwidth="0" marginheight="0"></iframe><?php break;?>
 	
-	<?php case "3": ?><iframe scrolling="no" seamless src="/Public/Upload/<?php echo ($advs["pic"]); ?>" class="g-cell g-inlinehide" frameborder="0" marginwidth="0" marginheight="0"></iframe><?php break; endswitch; endforeach; endif; ?>
+	<?php case "3": ?><iframe scrolling="no" seamless src="/godzmooc/Public/Upload/<?php echo ($advs["pic"]); ?>" class="g-cell g-inlinehide" frameborder="0" marginwidth="0" marginheight="0"></iframe><?php break; endswitch; endforeach; endif; ?>
     <div class="b-20"></div>
   </div>
   <!--
@@ -1130,7 +1130,7 @@
         <div class="u-cover u-find-cover first" id="auto-id-1449504749437">
           <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/214017.htm" data-index="1" data-name="Abby学摄影">
             <div class="img">
-              <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(34).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img2.ph.126.net/EIvHtDn7ZEtIqHC-IHeVqQ==/6597150031006883092.jpg_225x124x1x95.jpg" alt="Abby学摄影" id="auto-id-1449504749603"> </div>
+              <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(34).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img2.ph.126.net/EIvHtDn7ZEtIqHC-IHeVqQ==/6597150031006883092.jpg_225x124x1x95.jpg" alt="Abby学摄影" id="auto-id-1449504749603"> </div>
               <div class="tit">
                 <h3 class="f-thide">Abby学摄影</h3>
                 <div class="continued sign f-dn">老师参与</div>
@@ -1153,7 +1153,7 @@
         <div class="u-cover u-find-cover" id="auto-id-1449504749442">
           <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1436033.htm" data-index="2" data-name="艾问顶级投资人之创客法则">
             <div class="img">
-              <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(35).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/86pAoY_bysompLfOTWU0mA==/6630255226607533029.jpg_225x124x1x95.jpg" alt="艾问顶级投资人之创客法则" id="auto-id-1449504749605"> </div>
+              <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(35).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/86pAoY_bysompLfOTWU0mA==/6630255226607533029.jpg_225x124x1x95.jpg" alt="艾问顶级投资人之创客法则" id="auto-id-1449504749605"> </div>
               <div class="tit">
                 <h3 class="f-thide">艾问顶级投资人之创客法则</h3>
                 <div class="continued sign f-dn">老师参与</div>
@@ -1175,7 +1175,7 @@
         <div class="u-cover u-find-cover" id="auto-id-1449504749447">
           <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1264002.htm" data-index="3" data-name="两个周末从PPT小白到导师">
             <div class="img">
-              <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(36).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/xszC2-SLHL8TxK7O66mrrA==/6631334947024668681.jpg_225x124x1x95.jpg" alt="两个周末从PPT小白到导师" id="auto-id-1449504749607"> </div>
+              <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(36).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/xszC2-SLHL8TxK7O66mrrA==/6631334947024668681.jpg_225x124x1x95.jpg" alt="两个周末从PPT小白到导师" id="auto-id-1449504749607"> </div>
               <div class="tit">
                 <h3 class="f-thide">两个周末从PPT小白到导师</h3>
                 <div class="continued sign f-dn">老师参与</div>
@@ -1197,7 +1197,7 @@
         <div class="u-cover u-find-cover" id="auto-id-1449504749452">
           <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/1350013.htm" data-index="4" data-name="十分钟学会简笔画">
             <div class="img">
-              <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(37).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/5LVl87xHAyMsVIoSgaqlAg==/6631256881699406211.jpg_225x124x1x95.jpg" alt="十分钟学会简笔画" id="auto-id-1449504749609"> </div>
+              <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(37).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/5LVl87xHAyMsVIoSgaqlAg==/6631256881699406211.jpg_225x124x1x95.jpg" alt="十分钟学会简笔画" id="auto-id-1449504749609"> </div>
               <div class="tit">
                 <h3 class="f-thide">十分钟学会简笔画</h3>
                 <div class="continued sign f-dn">老师参与</div>
@@ -1219,7 +1219,7 @@
         <div class="u-cover u-find-cover g-hide" id="auto-id-1449504749457">
           <div class="wrap f-cb"> <a target="_blank" class="j-href wrap" data-href="/course/introduction/940019.htm" data-index="5" data-name="英语口语革命（送直播+送录播+不限时学习）">
             <div class="img">
-              <div class="pic f-pr"> <img class="imgPic j-img" src="/Public/Home/imgs/index(38).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/f4VbQWeZ_eLhEAXX9UMpCQ==/6630780793166334285.jpg_225x124x1x95.jpg" alt="英语口语革命（送直播+送录播+不限时学习）" id="auto-id-1449504749611"> </div>
+              <div class="pic f-pr"> <img class="imgPic j-img" src="/godzmooc/Public/Home/imgs/index(38).jpg" data-originsrc="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://img0.ph.126.net/f4VbQWeZ_eLhEAXX9UMpCQ==/6630780793166334285.jpg_225x124x1x95.jpg" alt="英语口语革命（送直播+送录播+不限时学习）" id="auto-id-1449504749611"> </div>
               <div class="tit">
                 <h3 class="f-thide">英语口语革命（送直播+送录播+不限时学习）</h3>
                 <div class="continued sign f-dn">老师参与</div>
@@ -1269,15 +1269,15 @@
         <p class="txt f-fs0"> 网易公司(163.com)旗下实用技能学习平台。与顶级机构、院校和优秀讲师合作，为您提供海量优质课程，以及创新的在线学习体验，帮助您获得全新的个人发展和能力提升。</p>
         <div class="share f-cb">
           <p class="tit">关注我们：</p>
-          <a href="http://weibo.com/study163" class="weibo" target="_blank" data-index="关注我们_微博"><img src="/Public/Home/imgs/1.png"></a> <a href="http://page.renren.com/601660242" class="renren" target="_blank" data-index="关注我们_人人"><img src="/Public/Home/imgs/2.png"></a> <a href="javascript:void(0)" class="yixin f-pr" data-index="关注我们_易信"><img src="/Public/Home/imgs/3.png">
+          <a href="http://weibo.com/study163" class="weibo" target="_blank" data-index="关注我们_微博"><img src="/godzmooc/Public/Home/imgs/1.png"></a> <a href="http://page.renren.com/601660242" class="renren" target="_blank" data-index="关注我们_人人"><img src="/godzmooc/Public/Home/imgs/2.png"></a> <a href="javascript:void(0)" class="yixin f-pr" data-index="关注我们_易信"><img src="/godzmooc/Public/Home/imgs/3.png">
           <div class="tipQrcode f-pa">
-            <div class="qrImag"> <img src="/Public/Home/imgs/yixin.png" width="120px" height="120px" alt="加云课堂易信好友"> </div>
+            <div class="qrImag"> <img src="/godzmooc/Public/Home/imgs/yixin.png" width="120px" height="120px" alt="加云课堂易信好友"> </div>
             <p class="qrTitle">易信号：study163</p>
             <div class="tip f-pa"></div>
           </div>
-          </a> <a href="javascript:void(0)" class="weixin f-pr" data-index="关注我们_微信"><img src="/Public/Home/imgs/4.png">
+          </a> <a href="javascript:void(0)" class="weixin f-pr" data-index="关注我们_微信"><img src="/godzmooc/Public/Home/imgs/4.png">
           <div class="tipQrcode f-pa">
-            <div class="qrImag"> <img src="/Public/Home/imgs/weixin.png" width="120px" height="120px" alt="加云课堂微信好友"> </div>
+            <div class="qrImag"> <img src="/godzmooc/Public/Home/imgs/weixin.png" width="120px" height="120px" alt="加云课堂微信好友"> </div>
             <p class="qrTitle">微信号：study163</p>
             <div class="tip f-pa"></div>
           </div>
@@ -1285,11 +1285,11 @@
         <div class="copy">©<span>1997-2015</span> <?php echo ($configs["copyright"]); ?></div>
       </div>
       <div class="ftrt f-fr">
-	  <a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="关于我们">关于我们</a> 
-	  <a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="联系我们">联系我们</a>
-	  <a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="帮助中心">帮助中心</a> 
-	  <a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="内容招募">内容招募</a> 
-	  <a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="意见反馈">意见反馈</a>
+	  <a href="/godzmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="关于我们">关于我们</a> 
+	  <a href="/godzmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="联系我们">联系我们</a>
+	  <a href="/godzmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="帮助中心">帮助中心</a> 
+	  <a href="/godzmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="内容招募">内容招募</a> 
+	  <a href="/godzmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="意见反馈">意见反馈</a>
 	  <a href="http://www.icourse163.org/" target="_blank" data-index="中国大学MOOC">中国大学MOOC</a>
         <div class="f-cb mobile f-fr">
           <div class="tit f-fl">移动App:</div>
@@ -1321,9 +1321,9 @@
 		var id=$("#auto-id-1449466857066 a").attr("id");
 		var html="";
 		$(".IT p:first-of-type").html('');
-		$.post("/index.php/Index/se",{pid:id},function(b){
+		$.post("/godzmooc/index.php/Index/se",{pid:id},function(b){
 			for(var i in b){
-				html+="<a href = /index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
+				html+="<a href = /godzmooc/index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
 			}
 			$(".IT p:first-of-type").append(html);
 		},'json');
@@ -1359,9 +1359,9 @@
 		var id=$("#auto-id-1449466857067 a").attr("id");
 		var html="";
 		$(".work p:first-of-type").html('');
-		$.post("/index.php/Index/se",{pid:id},function(b){
+		$.post("/godzmooc/index.php/Index/se",{pid:id},function(b){
 			for(var i in b){
-				html+="<a href = /index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
+				html+="<a href = /godzmooc/index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
 			}
 			$(".work p:first-of-type").append(html);
 		},'json');
@@ -1398,9 +1398,9 @@
 		var id=$("#auto-id-1449466857068 a").attr("id");
 		var html="";
 		$(".study p:first-of-type").html('');
-		$.post("/index.php/Index/se",{pid:id},function(b){
+		$.post("/godzmooc/index.php/Index/se",{pid:id},function(b){
 			for(var i in b){
-				html+="<a href = /index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
+				html+="<a href = /godzmooc/index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
 			}
 			$(".study p:first-of-type").append(html);
 		},'json');
@@ -1434,9 +1434,9 @@
 		var id=$("#auto-id-1449466857069 a").attr("id");
 		var html="";
 		$(".fave p:first-of-type").html('');
-		$.post("/index.php/Index/se",{pid:id},function(b){
+		$.post("/godzmooc/index.php/Index/se",{pid:id},function(b){
 			for(var i in b){
-				html+="<a href = /index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
+				html+="<a href = /godzmooc/index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
 			}
 			$(".fave p:first-of-type").append(html);
 			},'json');
@@ -1466,9 +1466,9 @@
 		var id=$("#auto-id-1449466857070 a").attr("id");
 		var html="";
 		$(".more p:first-of-type").html('');
-		$.post("/index.php/Index/se",{pid:id},function(b){
+		$.post("/godzmooc/index.php/Index/se",{pid:id},function(b){
 			for(var i in b){
-				html+="<a href = /index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
+				html+="<a href = /godzmooc/index.php/Type/index/tid/"+b[i]['id']+">"+b[i]['name']+"</a><span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>";
 			}
 			$(".more p:first-of-type").append(html);
 			},'json');

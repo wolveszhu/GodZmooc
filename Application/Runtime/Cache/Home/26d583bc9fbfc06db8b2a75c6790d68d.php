@@ -5,19 +5,19 @@
 		<title>全部课程 - 网易云课堂</title>
 		<meta name="keywords" content="云课堂">
 		<meta name="description" content="云课堂">
-		<script type="text/javascript"charset="utf-8"src="/study/Public/Home/js/ajax.js"></script>
-		<script type="text/javascript"charset="utf-8"src="/study/Public/Home/js/jquery.js"></script>
+		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/ajax.js"></script>
+		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/jquery.js"></script>
 		<meta name="description" content="">
 		<title>网易用户中心</title>
 	</head>
 	
 	
-		<link rel="stylesheet" href="/study/Public/Home/css/reg/global.css">
-		<link rel="stylesheet" href="/study/Public/Home/css/reg/autoComplete.css">
-		<link rel="stylesheet" href="/study/Public/Home/css/reg/reg.css">
-		<link rel="stylesheet" href="/study/Public/Home/css/reg/popup.css">
-		<script type="text/javascript"src="/study/Public/Home/js/jquery.js"></script>
-		<script type="text/javascript"src="/study/Public/Home/js/ajax.js"></script>
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/reg/global.css">
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/reg/autoComplete.css">
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/reg/reg.css">
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/reg/popup.css">
+		<script type="text/javascript"src="/godzmooc/Public/Home/js/jquery.js"></script>
+		<script type="text/javascript"src="/godzmooc/Public/Home/js/ajax.js"></script>
 	<body class="s-study">
 		<div class="g-doc" style="min-width:1240px">
 			<div class="g-hd">
@@ -25,7 +25,7 @@
 					<div class="m-logobar">
 						<h1>
 							<a href="#" target="_blank">
-								<em>网易用户中心</em><img src="/study/Public/Home/imgs/reg/logo2.png" alt="网易用户中心" title="网易用户中心">
+								<em>网易用户中心</em><img src="/godzmooc/Public/Home/imgs/reg/logo2.png" alt="网易用户中心" title="网易用户中心">
 							</a>
 						</h1>
 						<i>|</i>
@@ -47,7 +47,7 @@
 						</div>
 						<div class="tabBdNew" style="overflow:visible;">
 							<div class="tabBd" style="float:left;height:590px">
-								<form method="post" action="/study/index.php/Login/add" autocomplete="off">
+								<form method="post" action="/godzmooc/index.php/Login/add" autocomplete="off">
 									<div id="regEmail">
 										<div class="m-ipt f-mb0">
 											<div class="u-ipt">
@@ -88,7 +88,7 @@
 										</div>
 										<div class="m-ipt m-ipt-code">
 											<div class="u-ipt "><div class="iptctn"><input type="text" name="code" id="usercheckcode" tabindex="4" autocapitalize="off" myholder="验证码" style="width:170px;" placeholder="验证码"></div></div>
-											<img id="code" width="128" height="40" src="/study/index.php/Login/verify" alt="验证码" title="验证码">
+											<img id="code" width="128" height="40" src="/godzmooc/index.php/Login/verify" alt="验证码" title="验证码">
 											<a href="javascript:void(0);" class="u-btn u-btn-img u-btn-img-code"><span><em></em></span></a>
 											<p class="u-tips ">
 												<em>&nbsp;</em><span></span>
@@ -114,7 +114,7 @@
 										<p class="ad_lit_title">[自动登录、再也不用记密码]</p><p class="ad_lit_title">[不用费心、所有邮箱自动收发]</p>
 									</div>
 									<div style="width: 200px;height: 257px;margin: 20px auto;">
-										<img src="/study/Public/Home/imgs/reg/got2.jpg"></div>
+										<img src="/godzmooc/Public/Home/imgs/reg/got2.jpg"></div>
 										<a class="f-ib" target="_blank" href="" style="width: 145px;height: 40px;background:url(/images2/got1.jpg) no-repeat"></a>
 							</div>
 						</div>
@@ -153,7 +153,7 @@
 				return u = false;
 			}else
 			{
-				$.get("/study/index.php/Login/reg1?email="+email,function(b){
+				$.get("/godzmooc/index.php/Login/reg1?email="+email,function(b){
 					if(b){
 						$("#nu").css("color","red");
 						$("#nu").html("邮箱已被注册");

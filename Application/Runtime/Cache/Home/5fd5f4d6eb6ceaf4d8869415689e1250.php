@@ -5,22 +5,22 @@
 <meta name="keywords" content="<?php echo ($configs["keywords"]); ?>">
 <meta name="description" content="<?php echo ($configs["description"]); ?>">
 
-<script type="text/javascript" async src="/Public/Home/js/ga.js"></script>
-<script type="text/javascript" src="/Public/Home/js/course_list.js"></script>
-<link href="/Public/Home/css/core.css" type="text/css" rel="stylesheet">
-<link href="/Public/Home/css/course_list.css" type="text/css" rel="stylesheet">
-<link href="/Public/Home/css/course_noteIndex.css" type="text/css" rel="stylesheet">
-<link href="/Public/Home/css/course_note.css" type="text/css" rel="stylesheet">
-<script src="/Public/Home/js/course_note.js" type="text/javascript"></script>
+<script type="text/javascript" async src="/wyiEdu/Public/Home/js/ga.js"></script>
+<script type="text/javascript" src="/wyiEdu/Public/Home/js/course_list.js"></script>
+<link href="/wyiEdu/Public/Home/css/core.css" type="text/css" rel="stylesheet">
+<link href="/wyiEdu/Public/Home/css/course_list.css" type="text/css" rel="stylesheet">
+<link href="/wyiEdu/Public/Home/css/course_noteIndex.css" type="text/css" rel="stylesheet">
+<link href="/wyiEdu/Public/Home/css/course_note.css" type="text/css" rel="stylesheet">
+<script src="/wyiEdu/Public/Home/js/course_note.js" type="text/javascript"></script>
 
-<script src="/Public/Home/js/ajax.js" type="text/javascript"></script>
-<script src="/Public/Home/js/jquery.js" type="text/javascript"></script>
+<script src="/wyiEdu/Public/Home/js/ajax.js" type="text/javascript"></script>
+<script src="/wyiEdu/Public/Home/js/jquery.js" type="text/javascript"></script>
 
-<script src="/Public/Home/js/course_talk.js" type="text/javascript"></script>
-<link href="/Public/Home/css/course_talk.css" type="text/css" rel="stylesheet">
+<script src="/wyiEdu/Public/Home/js/course_talk.js" type="text/javascript"></script>
+<link href="/wyiEdu/Public/Home/css/course_talk.css" type="text/css" rel="stylesheet">
 
-<script src="/Public/Home/js/course_reply.js" type="text/javascript"></script>
-<link href="/Public/Home/css/course_reply.css" type="text/css" rel="stylesheet">
+<script src="/wyiEdu/Public/Home/js/course_reply.js" type="text/javascript"></script>
+<link href="/wyiEdu/Public/Home/css/course_reply.css" type="text/css" rel="stylesheet">
 
 </head>
 <body id="find" class="auto-1449466894298-parent" style="padding-top: 60px;">
@@ -29,14 +29,14 @@
   <div class="g-hd f-bg1 m-yktNav " id="j-topnav" style="background:#2F3440">
     <div class="g-flow">
       <div class="f-pr f-cb">
-        <div class="m-logo f-cb"> <a class="f-fl" hidefocus="true" href="/index.php" target="_self" data-index="网易云课堂logo"> <img class="f-fl img" src="/Public/Home/imgs/logo3.png" title="云课堂" width="153" height="28"> </a> </div>
+        <div class="m-logo f-cb"> <a class="f-fl" hidefocus="true" href="/wyiEdu/index.php" target="_self" data-index="网易云课堂logo"> <img class="f-fl img" src="/wyiEdu/Public/Home/imgs/logo3.png" title="云课堂" width="153" height="28"> </a> </div>
         <div class="u-navcatebtn"> <a href="#" target="_blank" class="cbtn" id="j-nav-catebtn"></a> </div>
 		
 		
 		<div class="m-navrgt f-fr f-cb f-pr j-navright">
 		<?php if($_SESSION["id"] == null): ?><div class="userinfo f-fr f-cb f-pr">
 				<div class="unlogin f-fr">
-					<a href="/index.php/login/index.html" class="j-nav-loginBtn" id="j-login" data-index="登陆注册">登录/注册</a>
+					<a href="/wyiEdu/index.php/login/index.html" class="j-nav-loginBtn" id="j-login" data-index="登陆注册">登录/注册</a>
 				</div>
 			</div>
 
@@ -58,37 +58,37 @@
 			<div id="login">
 				<div><a href="<?php echo ($_SESSION["id"]); ?>">消息</a></div>
 				<div><a href="<?php echo ($_SESSION["id"]); ?>">课程包</a></div>
-				<img src="/Public/Upload/<?php echo ($_SESSION["pic"]); ?>"/>
+				<img src="/wyiEdu/Public/Upload/<?php echo ($_SESSION["pic"]); ?>"/>
 				<div id="login1">
-					<div><a href="/index.php/Detail/personal/id/<?php echo ($_SESSION["id"]); ?>"><?php echo ($_SESSION["username"]); ?></a></div>
-					<div><a href="/index.php/Detail/personalCenter/id/<?php echo ($_SESSION["id"]); ?>">个人主页</a></div>
-					<div><a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>">反馈意见</a></div>
-					<div><a href="/index.php/Detail/index/id/<?php echo ($_SESSION["id"]); ?>">设置</a></div>
-					<div><a href="/index.php/Index/logout/id/<?php echo ($_SESSION["id"]); ?>">退出</a></div>
+					<div><a href="/wyiEdu/index.php/Detail/personal/id/<?php echo ($_SESSION["id"]); ?>"><?php echo ($_SESSION["username"]); ?></a></div>
+					<div><a href="/wyiEdu/index.php/Detail/personalCenter/id/<?php echo ($_SESSION["id"]); ?>">个人主页</a></div>
+					<div><a href="/wyiEdu/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>">反馈意见</a></div>
+					<div><a href="/wyiEdu/index.php/Detail/index/id/<?php echo ($_SESSION["id"]); ?>">设置</a></div>
+					<div><a href="/wyiEdu/index.php/Index/logout/id/<?php echo ($_SESSION["id"]); ?>">退出</a></div>
 				</div>
 			</div><?php endif; ?>
         </div>
-        <div class="m-nav f-cb j-navFind"> <a data-index="首页" class="nitem" href="/index.php" hidefocus="true">首页</a>
+        <div class="m-nav f-cb j-navFind"> <a data-index="首页" class="nitem" href="/wyiEdu/index.php" hidefocus="true">首页</a>
           <div class="f-pr f-cb nitem x-hoverItem"> 
 		  <span>课程体系</span>
             <div class="f-pa u-navdropmenu x-child"> 
 			<span class="arrr f-pa"></span>
-			<a data-index="大学计算机专业" class="dropitem f-f0" href="/index.php/major/major_inter" hidefocus="true"> <span>大学计算机专业</span> </a> 
-			<a data-index="互联网职业技能" class="dropitem f-f0" href="/index.php/major/major_skill" hidefocus="true"> <span>互联网职业技能</span></a>
-			<a data-index="金融专业" class="dropitem f-f0 last" href="/index.php/major/major_money" hidefocus="true"> <span>金融专业</span> </a> 
+			<a data-index="大学计算机专业" class="dropitem f-f0" href="/wyiEdu/index.php/major/major_inter" hidefocus="true"> <span>大学计算机专业</span> </a> 
+			<a data-index="互联网职业技能" class="dropitem f-f0" href="/wyiEdu/index.php/major/major_skill" hidefocus="true"> <span>互联网职业技能</span></a>
+			<a data-index="金融专业" class="dropitem f-f0 last" href="/wyiEdu/index.php/major/major_money" hidefocus="true"> <span>金融专业</span> </a> 
 			</div>
           </div>
-          <a data-index="微专业" class="nitem" href="/index.php/major/major_small" hidefocus="true">微专业</a>
+          <a data-index="微专业" class="nitem" href="/wyiEdu/index.php/major/major_small" hidefocus="true">微专业</a>
 		  <div class="nitem f-f0 x-hoverItem" hidefocus="true"> <span class="j-dropmenubtn" data-href="/client/download.htm" id="auto-id-1449466857063">下载APP</span>
             <div class="u-navapptip f-pa x-child">
               <div class="arrr f-pa"></div>
-              <img src="/Public/Home/imgs/nav_qrcode.png" class="ewm f-fl" alt="下载APP" title="下载APP">
+              <img src="/wyiEdu/Public/Home/imgs/nav_qrcode.png" class="ewm f-fl" alt="下载APP" title="下载APP">
               <div class="rcon f-fr">
                 <h4 class="txt">扫码下载官方App</h4>
-                <a data-index="appstore下载" href="/index.php/User/download" target="_blank" class="store apple"><img src="/Public/Home/imgs/upload(1).png" width="150px"></a> <a data-index="android下载" href="/index.php/User/download" target="_blank" class="store android"><img src="/Public/Home/imgs/upload(2).png"></a> </div>
+                <a data-index="appstore下载" href="/wyiEdu/index.php/User/download" target="_blank" class="store apple"><img src="/wyiEdu/Public/Home/imgs/upload(1).png" width="150px"></a> <a data-index="android下载" href="/wyiEdu/index.php/User/download" target="_blank" class="store android"><img src="/wyiEdu/Public/Home/imgs/upload(2).png"></a> </div>
             </div>
           </div>
-          <a data-index="学习中心" class="nitem" href="/index.php" hidefocus="true">学习中心</a>
+          <a data-index="学习中心" class="nitem" href="/wyiEdu/index.php" hidefocus="true">学习中心</a>
           <div class="xxzxtip f-pa f-dn" id="j-xxzxtip-black-nav">
             <div class="arrr f-pa"></div>
             <div class="text f-fl">
@@ -119,7 +119,7 @@
       <div class="ov f-pr j-ch">
         <div class="courseMark djMark f-pa j-djMark"></div>
         <div class="courseMark sfMark f-pa j-sfMark"></div>
-        <div class="g-sd1 left j-chimg"><img width="450" height="250" src="/Public/Upload/<?php echo ($video["video"]); ?>"><a class="cliBtn" id="auto-id-1449466945226"></a></div>
+        <div class="g-sd1 left j-chimg"><img width="450" height="250" src="/wyiEdu/Public/Upload/<?php echo ($video["video"]); ?>"><a class="cliBtn" id="auto-id-1449466945226"></a></div>
 		
 		
         <div class="g-mn1">
@@ -161,7 +161,7 @@
 				<?php if($_SESSION["id"] != null): ?><!-- <input type="button" value="立即参加" class="learnbtn f-db f-cb j-joinBtn" id="auto-id-1449466945261"/>--> 
 			   <input type="button" value="立即参加" class="learnbtn f-db f-cb j-joinBtn" id="auto-id-1449466945261"/> 
 			  <?php else: ?>
-			  <div style="width:150px;height:40px;line-height:40px;text-align:center;background:#FF9600;"><b><a href="/index.php/Login/index" style="color:white">立即参加</a></b></div><?php endif; ?>
+			  <div style="width:150px;height:40px;line-height:40px;text-align:center;background:#FF9600;"><b><a href="/wyiEdu/index.php/Login/index" style="color:white">立即参加</a></b></div><?php endif; ?>
            
             </div>
           </div>   
@@ -173,9 +173,9 @@
         <input type="hidden" name="productType" value="0">
       </form>
       <ul class="f-cb tabarea">
-        <li class="f-fl"><a class="j-chtab selected" hidefocus="true" href="/index.php/Course/index/id/<?php echo ($video['id']); ?>" style="color:#000">主页</a></li>
-        <li class="f-fl"><a class="j-chtab" hidefocus="true" href="/index.php/Note/index/id/<?php echo ($video['id']); ?>">笔记</a></li>
-        <li class="f-fl"><a id="talk" class="j-chtab" hidefocus="true" href="/index.php/Talk/index/id/<?php echo ($video['id']); ?>">讨论区</a></li>
+        <li class="f-fl"><a class="j-chtab selected" hidefocus="true" href="/wyiEdu/index.php/Course/index/id/<?php echo ($video['id']); ?>" style="color:#000">主页</a></li>
+        <li class="f-fl"><a class="j-chtab" hidefocus="true" href="/wyiEdu/index.php/Note/index/id/<?php echo ($video['id']); ?>">笔记</a></li>
+        <li class="f-fl"><a id="talk" class="j-chtab" hidefocus="true" href="/wyiEdu/index.php/Talk/index/id/<?php echo ($video['id']); ?>">讨论区</a></li>
         <li class="f-fr"><a class="j-chtab s-fc5" hidefocus="true" href="#">问答</a></li>
       </ul>
     </div>
@@ -215,9 +215,9 @@
 					课时<?php echo ($num++); ?>
 				</span>
 				<span class="f-fl f-thide ksname" title="<?php echo ($course["name"]); ?>">
-			    <?php if($_SESSION['id'] != null): ?><a href="/Application/Home/View/Play/index.html"><?php echo ($course["name"]); ?></a>
+			    <?php if($_SESSION['id'] != null): ?><a href="/wyiEdu/Application/Home/View/Play/index.html"><?php echo ($course["name"]); ?></a>
 					<?php else: ?>
-					<a href="/index.php/Login/index"><?php echo ($course["name"]); ?></a><?php endif; ?>
+					<a href="/wyiEdu/index.php/Login/index"><?php echo ($course["name"]); ?></a><?php endif; ?>
 				</span>
 					<span class="f-fr">
 						<a class="f-fr ksjbtn j-hovershow">
@@ -253,7 +253,7 @@
             <div class="f-fr tiicon jtsbtn jtsright j-nextlector"></div>
             <div class="f-fr tiicon jtsbtn-mr jtsbtn jtsleft j-prelector"></div>
           </div>
-          <div class="j-lLink limg f-cb f-pr" id="auto-id-1449466944967" data-cid="cid0"><img height="75" width="75" class="j-limg" src="/Public/Upload/<?php echo ($teacher["photo"]); ?>" id="auto-id-1449466944961"><span class="j-vipIcon u-orgVipIcon2 f-pa" title="认证机构" style="top: 64px; left: 64px;"></span></div>
+          <div class="j-lLink limg f-cb f-pr" id="auto-id-1449466944967" data-cid="cid0"><img height="75" width="75" class="j-limg" src="/wyiEdu/Public/Upload/<?php echo ($teacher["photo"]); ?>" id="auto-id-1449466944961"><span class="j-vipIcon u-orgVipIcon2 f-pa" title="认证机构" style="top: 64px; left: 64px;"></span></div>
           <img height="75" class="j-lLink" src="" style="display: none;">
           <p class="lname f-thide j-lname"><?php echo ($teacher["tname"]); ?></p>
         </div>
@@ -298,7 +298,7 @@
           <div class="u-asknull j-al-null" style="display:none">暂无评价</div>
           <div class="m-cmtcnt j-5cnt">
             <div class="u-cmt">
-              <div class="wrp f-cb f-pr"> <img class="/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945307" src="/Public/Home/imgs/185133E65A46A141721ED3C6DE720A81.jpg" data-cid="cid19">
+              <div class="wrp f-cb f-pr"> <img class="/wyiEdu/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945307" src="/wyiEdu/Public/Home/imgs/185133E65A46A141721ED3C6DE720A81.jpg" data-cid="cid19">
                 <div class="info">
                   <p class="presoninfo j-personinfo name" id="auto-id-1449466945312" data-cid="cid20"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945308">罗二花</span> </p>
                   <span class="time s-fc2 f-fs0 j-info">8:32</span>
@@ -317,7 +317,7 @@
               <div class="j-reply"></div>
             </div>
             <div class="u-cmt">
-              <div class="wrp f-cb f-pr"> <img class="/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945332" src="/Public/Home/imgs/6597173120751663718.jpg" data-cid="cid21">
+              <div class="wrp f-cb f-pr"> <img class="/wyiEdu/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945332" src="/wyiEdu/Public/Home/imgs/6597173120751663718.jpg" data-cid="cid21">
                 <div class="info">
                   <p class="presoninfo j-personinfo name" id="auto-id-1449466945337" data-cid="cid22"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945333">断弦</span> </p>
                   <span class="time s-fc2 f-fs0 j-info">12月6日</span>
@@ -336,7 +336,7 @@
               <div class="j-reply"></div>
             </div>
             <div class="u-cmt">
-              <div class="wrp f-cb f-pr"> <img class="/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945357" src="/Public/Home/imgs/small.jpg" data-cid="cid23">
+              <div class="wrp f-cb f-pr"> <img class="/wyiEdu/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945357" src="/wyiEdu/Public/Home/imgs/small.jpg" data-cid="cid23">
                 <div class="info">
                   <p class="presoninfo j-personinfo name" id="auto-id-1449466945362" data-cid="cid24"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945358">czl908</span> </p>
                   <span class="time s-fc2 f-fs0 j-info">12月6日</span>
@@ -355,7 +355,7 @@
               <div class="j-reply"></div>
             </div>
             <div class="u-cmt">
-              <div class="wrp f-cb f-pr"> <img class="/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945382" src="/Public/Home/imgs/small.jpg" data-cid="cid25">
+              <div class="wrp f-cb f-pr"> <img class="/wyiEdu/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945382" src="/wyiEdu/Public/Home/imgs/small.jpg" data-cid="cid25">
                 <div class="info">
                   <p class="presoninfo j-personinfo name" id="auto-id-1449466945387" data-cid="cid26"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945383">小田一号</span> </p>
                   <span class="time s-fc2 f-fs0 j-info">12月2日</span>
@@ -374,7 +374,7 @@
               <div class="j-reply"></div>
             </div>
             <div class="u-cmt">
-              <div class="wrp f-cb f-pr"> <img class="/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945407" src="/Public/Home/imgs/small.jpg" data-cid="cid27">
+              <div class="wrp f-cb f-pr"> <img class="/wyiEdu/Public/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945407" src="/wyiEdu/Public/Home/imgs/small.jpg" data-cid="cid27">
                 <div class="info">
                   <p class="presoninfo j-personinfo name" id="auto-id-1449466945412" data-cid="cid28"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945408">m18353298863</span> </p>
                   <span class="time s-fc2 f-fs0 j-info">12月1日</span>
@@ -402,29 +402,29 @@
         <div class="u-Pusers j-Pusers f-bg f-cb f-pr">
           <h3 class="f-cb"><em class="num j-num f-fl">80706</em><span class="nTask nCourse j-taskOrCourse f-fl"></span></h3>
           <div class="j-pics pics"><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1445145524999" id="auto-id-1449466945266">
-            <div class="j-icon" id="auto-id-1449466945267" data-cid="cid1"><img class="j-img" src="/Public/Home/imgs/saved_resource(2).png"><em class="f-thide">水天一线ykt1445145524997</em></div>
+            <div class="j-icon" id="auto-id-1449466945267" data-cid="cid1"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(2).png"><em class="f-thide">水天一线ykt1445145524997</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1444141959677" id="auto-id-1449466945268">
-            <div class="j-icon" id="auto-id-1449466945269" data-cid="cid2"><img class="j-img" src="/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">LanceCHZ</em></div>
+            <div class="j-icon" id="auto-id-1449466945269" data-cid="cid2"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">LanceCHZ</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/liudaoran" id="auto-id-1449466945270">
-            <div class="j-icon" id="auto-id-1449466945271" data-cid="cid3"><img class="j-img" src="/Public/Home/imgs/saved_resource(4).png"><em class="f-thide">liu2011jianzhong</em></div>
+            <div class="j-icon" id="auto-id-1449466945271" data-cid="cid3"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(4).png"><em class="f-thide">liu2011jianzhong</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1446899851070" id="auto-id-1449466945272">
-            <div class="j-icon" id="auto-id-1449466945273" data-cid="cid4"><img class="j-img" src="/Public/Home/imgs/saved_resource(5).png"><em class="f-thide">与我常在ykt1446899851067</em></div>
+            <div class="j-icon" id="auto-id-1449466945273" data-cid="cid4"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(5).png"><em class="f-thide">与我常在ykt1446899851067</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1441737505068" id="auto-id-1449466945274">
-            <div class="j-icon" id="auto-id-1449466945275" data-cid="cid5"><img class="j-img" src="/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">a77494185</em></div>
+            <div class="j-icon" id="auto-id-1449466945275" data-cid="cid5"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">a77494185</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1446729919164" id="auto-id-1449466945276">
-            <div class="j-icon" id="auto-id-1449466945277" data-cid="cid6"><img class="j-img" src="/Public/Home/imgs/saved_resource(6).png"><em class="f-thide">Mature&nbsp;men</em></div>
+            <div class="j-icon" id="auto-id-1449466945277" data-cid="cid6"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(6).png"><em class="f-thide">Mature&nbsp;men</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/1852565460" id="auto-id-1449466945278">
-            <div class="j-icon" id="auto-id-1449466945279" data-cid="cid7"><img class="j-img" src="/Public/Home/imgs/saved_resource(7).png"><em class="f-thide">默mooc26</em></div>
+            <div class="j-icon" id="auto-id-1449466945279" data-cid="cid7"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(7).png"><em class="f-thide">默mooc26</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1441755659687" id="auto-id-1449466945280">
-            <div class="j-icon" id="auto-id-1449466945281" data-cid="cid8"><img class="j-img" src="/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">admacc</em></div>
+            <div class="j-icon" id="auto-id-1449466945281" data-cid="cid8"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">admacc</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1449455148727" id="auto-id-1449466945282">
-            <div class="j-icon" id="auto-id-1449466945283" data-cid="cid9"><img class="j-img" src="/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">菊花的胜利</em></div>
+            <div class="j-icon" id="auto-id-1449466945283" data-cid="cid9"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">菊花的胜利</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1449459799031" id="auto-id-1449466945284">
-            <div class="j-icon" id="auto-id-1449466945285" data-cid="cid10"><img class="j-img" src="/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">MSNykt1449459799029</em></div>
+            <div class="j-icon" id="auto-id-1449466945285" data-cid="cid10"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">MSNykt1449459799029</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1448435528332" id="auto-id-1449466945286">
-            <div class="j-icon" id="auto-id-1449466945287" data-cid="cid11"><img class="j-img" src="/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">心雨难晴</em></div>
+            <div class="j-icon" id="auto-id-1449466945287" data-cid="cid11"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(3).png"><em class="f-thide">心雨难晴</em></div>
             </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/6564058523" id="auto-id-1449466945288">
-            <div class="j-icon" id="auto-id-1449466945289" data-cid="cid12"><img class="j-img" src="/Public/Home/imgs/saved_resource(8).png"><em class="f-thide">海寧hexLens</em></div>
+            <div class="j-icon" id="auto-id-1449466945289" data-cid="cid12"><img class="j-img" src="/wyiEdu/Public/Home/imgs/saved_resource(8).png"><em class="f-thide">海寧hexLens</em></div>
           </a></div>
         </div>
         <div class="j-default userDefault f-bg" style="display: none;">
@@ -521,24 +521,24 @@
         <div class="share f-cb">
 			<p class="tit">关注我们：</p>
 			<a href="#" class="weibo" target="_blank" data-index="关注我们_微博">
-				<img src="/Public/Home/imgs/1.png">
+				<img src="/wyiEdu/Public/Home/imgs/1.png">
 			</a> 
 			<a href="#" class="renren" target="_blank" data-index="关注我们_人人">
-				<img src="/Public/Home/imgs/2.png">
+				<img src="/wyiEdu/Public/Home/imgs/2.png">
 			</a>
 			<a href="javascript:void(0)" class="yixin f-pr" data-index="关注我们_易信">
-				<img src="/Public/Home/imgs/3.png">
+				<img src="/wyiEdu/Public/Home/imgs/3.png">
 				<div class="tipQrcode f-pa">
-					<div class="qrImag"> <img src="/Public/Home/imgs/yixin.png" width="120px" height="120px" alt="加云课堂易信好友"> </div>
+					<div class="qrImag"> <img src="/wyiEdu/Public/Home/imgs/yixin.png" width="120px" height="120px" alt="加云课堂易信好友"> </div>
 					<p class="qrTitle">易信号：study163</p>
 					<div class="tip f-pa"></div>
 				</div>
 			</a>
 			<a href="javascript:void(0)" class="weixin f-pr" data-index="关注我们_微信">
-				<img src="/Public/Home/imgs/4.png">
+				<img src="/wyiEdu/Public/Home/imgs/4.png">
 				<div class="tipQrcode f-pa">
 					<div class="qrImag">
-						<img src="/Public/Home/imgs/weixin.png" width="120px" height="120px" alt="加云课堂微信好友">
+						<img src="/wyiEdu/Public/Home/imgs/weixin.png" width="120px" height="120px" alt="加云课堂微信好友">
 					</div>
 					<p class="qrTitle">微信号：study163</p>
 					<div class="tip f-pa"></div>
@@ -548,11 +548,11 @@
 		<div class="copy">©<span>1997-2015</span> <?php echo ($configs["copyright"]); ?></div>
 	</div>
     <div class="ftrt f-fr">
-		<a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="关于我们">关于我们</a>
-		<a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="联系我们">联系我们</a>
-		<a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="帮助中心">帮助中心</a>
-		<a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="内容招募">内容招募</a>
-		<a href="/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="意见反馈">意见反馈</a>
+		<a href="/wyiEdu/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="关于我们">关于我们</a>
+		<a href="/wyiEdu/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="联系我们">联系我们</a>
+		<a href="/wyiEdu/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="帮助中心">帮助中心</a>
+		<a href="/wyiEdu/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="内容招募">内容招募</a>
+		<a href="/wyiEdu/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="意见反馈">意见反馈</a>
 		<a href="" target="_blank" data-index="中国大学MOOC">中国大学MOOC</a>
 		<div class="f-cb mobile f-fr">
 			<div class="tit f-fl">移动App:</div>
@@ -563,7 +563,7 @@
     </div>
   </div>
 </div>
-<script src="/Public/Home/css/reuglar.0.3.1.js"></script>
+<script src="/wyiEdu/Public/Home/css/reuglar.0.3.1.js"></script>
 <div class="f-dn">玩转 C语言 基础课堂,Fenby,IT与互联网 编程语言,玩转 C语言 基础课堂，用最基础易懂的形象比喻方式来学习和理解C语言的基础知识点，去掉冗繁的基础概念知识，最大化的在线练习编写代码中找到知识重点，以练为主，以学为辅，两者在快乐和最快时间里都可兼得，省去学习C语言看书和找习题的麻烦。  适用人群：喜欢编程，担心编程很难的零基础人群，想快速学好C语言基础，想用新鲜学习方式和不喜欢看书的C语言初学者。</div>
 <script> 
 	window.course = {             	 
@@ -577,7 +577,7 @@
  <script>
 	if (!this.I$){this.I$=function(){var a={},b=[],c=function(){return!1},d={},e=function(b,c){return a.toString.call(b)==="[object "+c+"]"};return function(f,g){var h=d[f],i=e(g,"Function");if(null==g||i||(h=g),i){for(var j=[],k=2,l=arguments.length;l>k;k++)j.push(I$(arguments[k]));var m={};j.push.call(j,m,a,c,b);var n=g.apply(null,j)||m;if(h&&e(n,"Object"))if(Object.keys)for(var p,o=Object.keys(n),k=0,l=o.length;l>k;k++)p=o[k],h[p]=n[p];else for(var p in n)h[p]=n[p];else h=n}return h||(h={}),d[f]=h,h}}();}
 </script>
-<script src="/Public/Home/css/core.js" type="text/javascript"></script>
+<script src="/wyiEdu/Public/Home/css/core.js" type="text/javascript"></script>
 <script type="text/javascript">
 	I$(1009,function(){
 		var e=window,i=(NEJ.P("nej.e"),NEJ.P("nej.v"),NEJ.P("nej.ut")),t=NEJ.P("edu.u");
@@ -597,10 +597,10 @@
   <div class="side-service-item "> <a class="item-link-block app-download" data-name="手机课堂" href="javascript:void(0)"> <i class="side-service-icon phone-icon"></i> <span class="item-hover-text">手机课堂</span>
     <div class="qrcode-bubble">
       <div class="qrcode">
-        <div class="download"><img src="/Public/Home/imgs/sideBar90.png">
+        <div class="download"><img src="/wyiEdu/Public/Home/imgs/sideBar90.png">
           <p>下载App</p>
         </div>
-        <div class="follow-weixin"><img src="/Public/Home/imgs/weixin.png">
+        <div class="follow-weixin"><img src="/wyiEdu/Public/Home/imgs/weixin.png">
           <p>关注微信</p>
         </div>
       </div>
@@ -665,7 +665,7 @@
         
 	    $("#num").html(num);
 		
-		$.post("/index.php/Course/num",{"id":id,"number":num},function(data){
+		$.post("/wyiEdu/index.php/Course/num",{"id":id,"number":num},function(data){
 		    
 		});		
 	});

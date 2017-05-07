@@ -5,28 +5,28 @@
 		<title>全部课程 - 网易云课堂</title>
 		<meta name="keywords" content="云课堂">
 		<meta name="description" content="云课堂">
-		<script type="text/javascript"charset="utf-8"src="/Public/Home/js/ajax.js"></script>
-		<script type="text/javascript"charset="utf-8"src="/Public/Home/js/jquery.js"></script>
+		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/ajax.js"></script>
+		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/jquery.js"></script>
 		<meta name="description" content="">
 		<title>网易用户中心</title>
 	</head>
 	
-		<script type="text/javascript"charset="utf-8"src="/Public/Home/js/jquery.js"></script>
-		<script type="text/javascript"charset="utf-8"src="/Public/Home/js/ajax.js"></script>
+		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/jquery.js"></script>
+		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/ajax.js"></script>
 
-		<link rel="stylesheet" href="/Public/Home/css/login/global.css">
-		<link rel="stylesheet" href="/Public/Home/css/login/skin.css">
-		<link rel="stylesheet" href="/Public/Home/css/login/autoComplete.css">
-		<link rel="stylesheet" href="/Public/Home/css/login/login.css">
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/login/global.css">
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/login/skin.css">
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/login/autoComplete.css">
+		<link rel="stylesheet" href="/godzmooc/Public/Home/css/login/login.css">
 	<body class="s-" style="padding-top: 0px;">
 		<div class="g-doc" style="visibility: visible;">
 			<div class="g-hd">
 				<div class="g-in">
 					<div class="m-logobar">
 						<h1>
-							<a href="/index.php">
+							<a href="/godzmooc/index.php">
 								<em>网易用户中心</em>
-								<img src="/Public/Home/imgs/login/logo.png" alt="网易用户中心" title="网易用户中心">
+								<img src="/godzmooc/Public/Home/imgs/login/logo.png" alt="网易用户中心" title="网易用户中心">
 							</a>
 						</h1>
 						<i>|</i>
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			<div class="g-bd">
-				<div class="g-in" style="position:relative; padding:46px 0;background:url('/Public/Home/imgs/login/bg.jpg');">
+				<div class="g-in" style="position:relative; padding:46px 0;background:url('/godzmooc/Public/Home/imgs/login/bg.jpg');">
 					
 					<iframe id="advList" frameborder="0" scrolling="no" marginheight="0px" marginwidth="0px" style="display: block;width: 990px;height: 512px;position: absolute;bottom: 0px;left: 0px;" src="">
 					</iframe>         
@@ -55,7 +55,7 @@
 										<em>&nbsp;</em><span></span>
 									</p>
 								</div>
-								<form id="fLogin" method="post" action="/index.php/Index/login" autocomplete="off" target="_self">
+								<form id="fLogin" method="post" action="/godzmooc/index.php/Index/login" autocomplete="off" target="_self">
 									<div class="m-ipt">
 										<div class="u-ipt">
 											<div class="iptctn">
@@ -102,7 +102,7 @@
 							<div class="loginLinks">
 								<a href="" target="_blank">忘记密码？</a>|
 								
-								<a href="/index.php/Login/reg.html" >注册</a>|
+								<a href="/godzmooc/index.php/Login/reg.html" >注册</a>|
 								<a href="" target="_blank">关于网易邮箱帐号</a>
 							</div>
 							
