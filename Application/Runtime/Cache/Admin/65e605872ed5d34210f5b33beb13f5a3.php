@@ -2,9 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>控制台-云课堂后台管理系统</title>
-		<meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
-		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
+		<title>控制台-GodZmooc后台管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- basic styles -->
 		<link href="/godzmooc/Public/Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -54,7 +52,7 @@
 					<a href="#" class="navbar-brand">
 						<small>
 							<i class="icon-leaf"></i>
-							云课堂-后台管理系统
+							GodZmooc-后台管理系统
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->
@@ -458,7 +456,7 @@
 								<li>
 									<a href="/godzmooc/admin.php/Type/add_parent">
 										<i class="icon-double-angle-right"></i>
-										添加分区
+										添加类型
 									</a>
 								</li>
 										
@@ -484,7 +482,7 @@
 								<li>
 									<a href="/godzmooc/admin.php/Type/add_video.html">
 										<i class="icon-double-angle-right"></i>
-										添加
+										添加视频
 									</a>
 								</li>
 							</ul>

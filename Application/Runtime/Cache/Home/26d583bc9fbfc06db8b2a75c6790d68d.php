@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>全部课程 - 网易云课堂</title>
-		<meta name="keywords" content="云课堂">
-		<meta name="description" content="云课堂">
+		<title>全部课程 - GodZmooc</title>
+		<meta name="keywords" content="GodZmooc">
+		<meta name="description" content="GodZmooc">
 		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/ajax.js"></script>
 		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/jquery.js"></script>
 		<meta name="description" content="">
-		<title>网易用户中心</title>
+		<title>GodZ用户中心</title>
 	</head>
 	
 	
@@ -25,7 +25,7 @@
 					<div class="m-logobar">
 						<h1>
 							<a href="#" target="_blank">
-								<em>网易用户中心</em><img src="/godzmooc/Public/Home/imgs/reg/logo2.png" alt="网易用户中心" title="网易用户中心">
+								<em>GodZmooc用户中心</em><img src="/godzmooc/Public/Home/imgs/reg/logo2.png" alt="GodZmooc用户中心" title="GodZmooc用户中心">
 							</a>
 						</h1>
 						<i>|</i>
@@ -61,12 +61,12 @@
 											</p>
 										</div>
 										<div class="regFormSplit">
-											<a href="">没有邮箱？注册网易邮箱</a>
+											<a href="">没有邮箱？注册GodZmooc邮箱</a>
 										</div>
 										<div class="m-ipt">
 											<div class="u-popup f-dn" id="j-popup">
 												<div class="pophd">
-													<p class="f-ff1 f-fwb">网易用户中心的 程序猿们建议您:</p>
+													<p class="f-ff1 f-fwb">GodZmooc用户中心的 程序猿们建议您:</p>
 												</div>
 												<div class="popcnt">
 												</div>
@@ -109,7 +109,7 @@
 							<!-- 广告模块 -->
 							<div class="tabBdAd">
 									<div>
-										<p class="ad_title">用网易邮箱大师</p>
+										<p class="ad_title">用GodZmooc邮箱大师</p>
 										<p class="ad_title">管理邮箱更简单</p>
 										<p class="ad_lit_title">[自动登录、再也不用记密码]</p><p class="ad_lit_title">[不用费心、所有邮箱自动收发]</p>
 									</div>
@@ -132,7 +132,7 @@
 							<a href="" target="_blank">网络营销</a>
 						</p>
 						<p>
-							网易公司版权所有 ©1997- 2015
+							GodZmooc公司版权所有 ©1997- 2015
 						</p>
 					</div>
 				</div>

@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>全部课程 - 网易云课堂</title>
-		<meta name="keywords" content="云课堂">
-		<meta name="description" content="云课堂">
+		<title>全部课程 - GodZmooc</title>
+		<meta name="keywords" content="GodZmooc">
+		<meta name="description" content="GodZmooc">
 		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/ajax.js"></script>
 		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/jquery.js"></script>
 		<meta name="description" content="">
-		<title>网易用户中心</title>
+		<title>GodZ用户中心</title>
 	</head>
 	
 		<script type="text/javascript"charset="utf-8"src="/godzmooc/Public/Home/js/jquery.js"></script>
@@ -25,8 +25,8 @@
 					<div class="m-logobar">
 						<h1>
 							<a href="/godzmooc/index.php">
-								<em>网易用户中心</em>
-								<img src="/godzmooc/Public/Home/imgs/login/logo.png" alt="网易用户中心" title="网易用户中心">
+								<em>GodZmooc用户中心</em>
+								<img src="/godzmooc/Public/Home/imgs/login/logo.png" alt="GodZmooc用户中心" title="GodZmooc用户中心">
 							</a>
 						</h1>
 						<i>|</i>
@@ -82,7 +82,7 @@
 									<input type="hidden" id="ticket" name="ticket" value="">
 									<div id="qrBox">
 										<p class="qrMsg">
-											使用 <a href="" target="_blank">网易邮箱大师APP</a> 扫一扫快速登录
+											使用 <a href="" target="_blank">GodZmooc邮箱大师APP</a> 扫一扫快速登录
 										</p>
 										<div class="u-tips4 f-dn">
 											<em>&nbsp;</em><span class="f-ff1"></span>
@@ -103,7 +103,7 @@
 								<a href="" target="_blank">忘记密码？</a>|
 								
 								<a href="/godzmooc/index.php/Login/reg.html" >注册</a>|
-								<a href="" target="_blank">关于网易邮箱帐号</a>
+								<a href="" target="_blank">关于GodZmooc邮箱帐号</a>
 							</div>
 							
 						</div>
@@ -161,7 +161,7 @@
 							<a href="" target="_blank">网络营销</a>
 						</p>
 						<p>
-							网易公司版权所有 ©1997-2015
+							GodZmooc公司版权所有 ©1997-2015
 						</p>
 					</div>
 				</div>

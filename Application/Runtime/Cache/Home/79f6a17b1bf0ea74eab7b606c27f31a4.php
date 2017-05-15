@@ -2,7 +2,7 @@
 <html>
         <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>系统维护中 - 云课堂</title>
+        <title>系统维护中 - GodZmooc</title>
         <meta http-equiv="Pragma" content="no-cache">
         <meta http-equiv="Cache-Control" content="no-cache" max-age="0">
         <meta http-equiv="Expires" content="0">
@@ -33,8 +33,8 @@
         <body style="margin:auto;background: #eee;">
 			<!-- 顶部导航栏 -->
 			<div class="m-nav">
-					  <div class="wrap"> <img src="/study/Public/Home/imgs/config.png"> </div>
+					  <div class="wrap"> <img src="/GodZmooc/Public/Home/imgs/config.png"> </div>
 					</div>
-			<div class="m-error"> <img class="leftPic" src="/study/Public/Home/imgs/maintain_bg.png"> </div>
+			<div class="m-error"> <img class="leftPic" src="/GodZmooc/Public/Home/imgs/maintain_bg.png"> </div>
 		</body>
 </html>

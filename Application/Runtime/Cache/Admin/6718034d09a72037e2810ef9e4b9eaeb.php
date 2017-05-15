@@ -2,9 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>控制台-云课堂后台管理系统</title>
-		<meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
-		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
+		<title>控制台-GodZmooc后台管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- basic styles -->
 		<link href="/godzmooc/Public/Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -54,7 +52,7 @@
 					<a href="#" class="navbar-brand">
 						<small>
 							<i class="icon-leaf"></i>
-							云课堂-后台管理系统
+							GodZmooc-后台管理系统
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->
@@ -458,7 +456,7 @@
 								<li>
 									<a href="/godzmooc/admin.php/Type/add_parent">
 										<i class="icon-double-angle-right"></i>
-										添加分区
+										添加类型
 									</a>
 								</li>
 										
@@ -484,7 +482,7 @@
 								<li>
 									<a href="/godzmooc/admin.php/Type/add_video.html">
 										<i class="icon-double-angle-right"></i>
-										添加
+										添加视频
 									</a>
 								</li>
 							</ul>
@@ -698,217 +696,192 @@
 				</div>
 
 				
-<div class="main-content">
-					<div class="breadcrumbs" id="breadcrumbs">
-						<script type="text/javascript">
-							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
-						</script>
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try {
+                    ace.settings.check('breadcrumbs', 'fixed')
+                } catch (e) {
+                }
+            </script>
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="/godzmooc/admin.php">后台主页</a>
+                </li>
+                <li>
+                    <a href="#">用户管理</a>
+                </li>
+                <li class="active">用户详情列表</li>
+            </ul><!-- .breadcrumb -->
+        </div>
 
-						<ul class="breadcrumb">
-							<li>
-								<i class="icon-home home-icon"></i>
-								<a href="/godzmooc/admin.php">后台主页</a>
-							</li>
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    用户管理
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        用户详情列表
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
 
-							<li>
-								<a href="#">用户管理</a>
-							</li>
-							<li class="active">用户详情列表</li>
-						</ul><!-- .breadcrumb -->
+            <div><br/></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="table-header">
+                                &nbsp;
+                            </div>
+                            <div class="table-responsive">
+                                <table id="sample-table-2" class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>用户名</th>
+                                        <th class="hidden-480">手机号</th>
+                                        <th>学历</th>
+                                        <th>个人介绍</th>
+                                        <th>省份证</th>
+                                        <th>QQ</th>
+                                        <th>真实姓名</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><?php echo ($d["id"]); ?></td>
+                                        <td><?php echo ($d["username"]); ?></td>
+                                        <td class="hidden-480"><?php echo ($d["phone"]); ?></td>
+                                        <td><?php echo ($d["edu"]); ?></td>
+                                        <td><?php echo ($d["description"]); ?></td>
+                                        <td><?php echo ($d["cardid"]); ?></td>
+                                        <td><?php echo ($d["qq"]); ?></td>
+                                        <td><?php echo ($d["realname"]); ?></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
 
-					</div>
+                    <div id="modal-table" class="modal fade" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header no-padding">
+                                    <div class="table-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                            <span class="white">&times;</span>
+                                        </button>
+                                        Results for "Latest Registered Domains
+                                    </div>
+                                </div>
 
-					<div class="page-content">
-						<div class="page-header">
-							<h1>
-								用户管理
-								<small>
-									<i class="icon-double-angle-right"></i>
-									用户详情列表
-								</small>
-							</h1>
-						</div><!-- /.page-header -->
-					
-						<div><br/></div>
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<div class="row">
-									<div class="col-xs-12">
-										
-										<div class="table-header">
-											&nbsp;
-										</div>
+                                <div class="modal-body no-padding">
+                                    <table class="table table-striped table-bordered table-hover no-margin-bottom no-border-top">
+                                        <thead>
+                                        <tr>
+                                            <th>Domain</th>
+                                            <th>Price</th>
+                                            <th>Clicks</th>
 
-										<div class="table-responsive">
-									
-											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
-												<thead>
-													<tr>
-													
-														<th>ID</th>
-														<th>用户名</th>
-														<th class="hidden-480">手机号</th>
+                                            <th>
+                                                <i class="icon-time bigger-110"></i>
+                                                Update
+                                            </th>
+                                        </tr>
+                                        </thead>
 
-														<th>
-															
-														学历
-														</th>
-													
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="#">ace.com</a>
+                                            </td>
+                                            <td>$45</td>
+                                            <td>3,330</td>
+                                            <td>Feb 12</td>
+                                        </tr>
 
-														
-														<th>个人介绍</th>
-														<th>省份证</th>
-														<th>QQ</th>
-														<th>真实姓名</th>
-														
-													</tr>
-												</thead>
-										
-												
-												<tbody>
-													<tr>
-												
+                                        <tr>
+                                            <td>
+                                                <a href="#">base.com</a>
+                                            </td>
+                                            <td>$35</td>
+                                            <td>2,595</td>
+                                            <td>Feb 18</td>
+                                        </tr>
 
-														<td>
-															<?php echo ($d["id"]); ?>
-														</td>
-														<td><?php echo ($d["username"]); ?></td>
-														<td class="hidden-480"><?php echo ($d["phone"]); ?></td>
-														<td><?php echo ($d["edu"]); ?></td>
-														<td><?php echo ($d["description"]); ?></td>
-														<td><?php echo ($d["cardid"]); ?></td>
-														<td><?php echo ($d["qq"]); ?></td>
-														<td><?php echo ($d["realname"]); ?></td>
-														
+                                        <tr>
+                                            <td>
+                                                <a href="#">max.com</a>
+                                            </td>
+                                            <td>$60</td>
+                                            <td>4,400</td>
+                                            <td>Mar 11</td>
+                                        </tr>
 
-													</tr>
-												</tbody>
-									
-											
-											
-											</table>
-											
-										
-										</div>
-									</div>
-								</div>
+                                        <tr>
+                                            <td>
+                                                <a href="#">best.com</a>
+                                            </td>
+                                            <td>$75</td>
+                                            <td>6,500</td>
+                                            <td>Apr 03</td>
+                                        </tr>
 
-								<div id="modal-table" class="modal fade" tabindex="-1">
-									<div class="modal-dialog">
-										<div class="modal-content">
-											<div class="modal-header no-padding">
-												<div class="table-header">
-													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-														<span class="white">&times;</span>
-													</button>
-													Results for "Latest Registered Domains
-												</div>
-											</div>
+                                        <tr>
+                                            <td>
+                                                <a href="#">pro.com</a>
+                                            </td>
+                                            <td>$55</td>
+                                            <td>4,250</td>
+                                            <td>Jan 21</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
-											<div class="modal-body no-padding">
-												<table class="table table-striped table-bordered table-hover no-margin-bottom no-border-top">
-													<thead>
-														<tr>
-															<th>Domain</th>
-															<th>Price</th>
-															<th>Clicks</th>
+                                <div class="modal-footer no-margin-top">
+                                    <button class="btn btn-sm btn-danger pull-left" data-dismiss="modal">
+                                        <i class="icon-remove"></i>
+                                        Close
+                                    </button>
 
-															<th>
-																<i class="icon-time bigger-110"></i>
-																Update
-															</th>
-														</tr>
-													</thead>
+                                    <ul class="pagination pull-right no-margin">
+                                        <li class="prev disabled">
+                                            <a href="#">
+                                                <i class="icon-double-angle-left"></i>
+                                            </a>
+                                        </li>
 
-													<tbody>
-														<tr>
-															<td>
-																<a href="#">ace.com</a>
-															</td>
-															<td>$45</td>
-															<td>3,330</td>
-															<td>Feb 12</td>
-														</tr>
+                                        <li class="active">
+                                            <a href="#">1</a>
+                                        </li>
 
-														<tr>
-															<td>
-																<a href="#">base.com</a>
-															</td>
-															<td>$35</td>
-															<td>2,595</td>
-															<td>Feb 18</td>
-														</tr>
+                                        <li>
+                                            <a href="#">2</a>
+                                        </li>
 
-														<tr>
-															<td>
-																<a href="#">max.com</a>
-															</td>
-															<td>$60</td>
-															<td>4,400</td>
-															<td>Mar 11</td>
-														</tr>
+                                        <li>
+                                            <a href="#">3</a>
+                                        </li>
 
-														<tr>
-															<td>
-																<a href="#">best.com</a>
-															</td>
-															<td>$75</td>
-															<td>6,500</td>
-															<td>Apr 03</td>
-														</tr>
-
-														<tr>
-															<td>
-																<a href="#">pro.com</a>
-															</td>
-															<td>$55</td>
-															<td>4,250</td>
-															<td>Jan 21</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-
-											<div class="modal-footer no-margin-top">
-												<button class="btn btn-sm btn-danger pull-left" data-dismiss="modal">
-													<i class="icon-remove"></i>
-													Close
-												</button>
-
-												<ul class="pagination pull-right no-margin">
-													<li class="prev disabled">
-														<a href="#">
-															<i class="icon-double-angle-left"></i>
-														</a>
-													</li>
-
-													<li class="active">
-														<a href="#">1</a>
-													</li>
-
-													<li>
-														<a href="#">2</a>
-													</li>
-
-													<li>
-														<a href="#">3</a>
-													</li>
-
-													<li class="next">
-														<a href="#">
-															<i class="icon-double-angle-right"></i>
-														</a>
-													</li>
-												</ul>
-											</div>
-										</div><!-- /.modal-content -->
-									</div><!-- /.modal-dialog -->
-								</div><!-- PAGE CONTENT ENDS -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div><!-- /.page-content -->
-				</div><!-- /.main-content -->
+                                        <li class="next">
+                                            <a href="#">
+                                                <i class="icon-double-angle-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- PAGE CONTENT ENDS -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
 
 
 				<div class="ace-settings-container" id="ace-settings-container">

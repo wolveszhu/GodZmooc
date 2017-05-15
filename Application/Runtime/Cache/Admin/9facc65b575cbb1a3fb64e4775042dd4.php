@@ -2,16 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>控制台-云课堂后台管理系统</title>
-		<meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
-		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
+		<title>控制台-GodZmooc后台管理系统</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- basic styles -->
-		<link href="/study/Public/Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/study/Public/Admin/assets/css/font-awesome.min.css" />
+		<link href="/GodZmooc/Public/Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/GodZmooc/Public/Admin/assets/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
-		  <link rel="stylesheet" href="/study/Public/Admin/assets/css/font-awesome-ie7.min.css" />
+		  <link rel="stylesheet" href="/GodZmooc/Public/Admin/assets/css/font-awesome-ie7.min.css" />
 		<![endif]-->
 
 		<!-- page specific plugin styles -->
@@ -21,25 +19,25 @@
 	
 		<!-- ace styles -->
 
-		<link rel="stylesheet" href="/study/Public/Admin/assets/css/ace.min.css" />
-		<link rel="stylesheet" href="/study/Public/Admin/assets/css/ace-rtl.min.css" />
-		<link rel="stylesheet" href="/study/Public/Admin/assets/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="/GodZmooc/Public/Admin/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="/GodZmooc/Public/Admin/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="/GodZmooc/Public/Admin/assets/css/ace-skins.min.css" />
 
 		<!--[if lte IE 8]>
-		  <link rel="stylesheet" href="/study/Public/Admin/assets/css/ace-ie.min.css" />
+		  <link rel="stylesheet" href="/GodZmooc/Public/Admin/assets/css/ace-ie.min.css" />
 		<![endif]-->
 
 		<!-- inline styles related to this page -->
 
 		<!-- ace settings handler -->
 
-		<script src="/study/Public/Admin/assets/js/ace-extra.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
 		<!--[if lt IE 9]>
-		<script src="/study/Public/Admin/assets/js/html5shiv.js"></script>
-		<script src="/study/Public/Admin/assets/js/respond.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/html5shiv.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/respond.min.js"></script>
 		<![endif]-->
 	</head>
 
@@ -54,7 +52,7 @@
 					<a href="#" class="navbar-brand">
 						<small>
 							<i class="icon-leaf"></i>
-							云课堂-后台管理系统
+							GodZmooc-后台管理系统
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->
@@ -212,7 +210,7 @@
 
 								<li>
 									<a href="#">
-										<img src="/study/Public/Admin/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+										<img src="/GodZmooc/Public/Admin/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Alex:</span>
@@ -229,7 +227,7 @@
 
 								<li>
 									<a href="#">
-										<img src="/study/Public/Admin/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+										<img src="/GodZmooc/Public/Admin/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Susan:</span>
@@ -246,7 +244,7 @@
 
 								<li>
 									<a href="#">
-										<img src="/study/Public/Admin/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+										<img src="/GodZmooc/Public/Admin/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Bob:</span>
@@ -272,7 +270,7 @@
 
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="/study/Public/Upload/<?php echo ($_SESSION['admin']['photo']); ?>" alt="Jason's Photo" />
+								<img class="nav-user-photo" src="/GodZmooc/Public/Upload/<?php echo ($_SESSION['admin']['photo']); ?>" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>欢迎光临,</small>
 									<?php echo ($_SESSION['admin']['name']); ?>
@@ -299,7 +297,7 @@
 								<li class="divider"></li>
 
 								<li>
-									<a href="/study/admin.php/Login/loginOut">
+									<a href="/GodZmooc/admin.php/Login/loginOut">
 										<i class="icon-off"></i>
 										退出
 									</a>
@@ -359,7 +357,7 @@
 					<ul class="nav nav-list">
 							
 						<li>
-							<a href="/study/admin.php" class="dropdown-toggle">
+							<a href="/GodZmooc/admin.php" class="dropdown-toggle">
 								<i class="icon-home"></i>
 								<span class="menu-text"> 后台首页 </span>
 							</a>
@@ -375,38 +373,38 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Admin/index.html">
+									<a href="/GodZmooc/admin.php/Admin/index.html">
 										<i class="icon-double-angle-right"></i>
 										管理员列表
 									</a>
 								</li>
 								<li>
-									<a href="/study/admin.php/Admin/add.html">
+									<a href="/GodZmooc/admin.php/Admin/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加管理员
 									</a>
 								</li>
 								<li>
-									<a href="/study/admin.php/Group/index.html">
+									<a href="/GodZmooc/admin.php/Group/index.html">
 										<i class="icon-double-angle-right"></i>
 										管理组列表
 									</a>
 								</li>
 								<li>
-									<a href="/study/admin.php/Group/add.html">
+									<a href="/GodZmooc/admin.php/Group/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加管理组
 									</a>
 								</li>
 								<li>
-									<a href="/study/admin.php/Auth/ruleIndex.html">
+									<a href="/GodZmooc/admin.php/Auth/ruleIndex.html">
 										<i class="icon-double-angle-right"></i>
 										权限列表
 									</a>
 								</li>
 
 								<li>
-									<a href="/study/admin.php/Auth/addRule.html">
+									<a href="/GodZmooc/admin.php/Auth/addRule.html">
 										<i class="icon-double-angle-right"></i>
 										添加权限
 									</a>
@@ -424,14 +422,14 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/User/index.html">
+									<a href="/GodZmooc/admin.php/User/index.html">
 										<i class="icon-double-angle-right"></i>
 										用户列表
 									</a>
 								</li>
 
 								<li>
-									<a href="/study/admin.php/User/add.html">
+									<a href="/GodZmooc/admin.php/User/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加用户
 									</a>
@@ -449,16 +447,16 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Type/index.html">
+									<a href="/GodZmooc/admin.php/Type/index.html">
 										<i class="icon-double-angle-right"></i>
 										类型列表
 									</a>
 								</li>
 										
 								<li>
-									<a href="/study/admin.php/Type/add_parent">
+									<a href="/GodZmooc/admin.php/Type/add_parent">
 										<i class="icon-double-angle-right"></i>
-										添加分区
+										添加类型
 									</a>
 								</li>
 										
@@ -475,16 +473,16 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Video/index.html">
+									<a href="/GodZmooc/admin.php/Video/index.html">
 										<i class="icon-double-angle-right"></i>
 										视频列表
 									</a>
 								</li>
 										
 								<li>
-									<a href="/study/admin.php/Type/add_video.html">
+									<a href="/GodZmooc/admin.php/Type/add_video.html">
 										<i class="icon-double-angle-right"></i>
-										添加
+										添加视频
 									</a>
 								</li>
 							</ul>
@@ -499,14 +497,14 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Organ/index.html">
+									<a href="/GodZmooc/admin.php/Organ/index.html">
 										<i class="icon-double-angle-right"></i>
 										机构列表
 									</a>
 								</li>
 
 								<li>
-									<a href="/study/admin.php/Organ/add.html">
+									<a href="/GodZmooc/admin.php/Organ/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加机构
 									</a>
@@ -524,14 +522,14 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Teacher/index.html">
+									<a href="/GodZmooc/admin.php/Teacher/index.html">
 										<i class="icon-double-angle-right"></i>
 										讲师列表
 									</a>
 								</li>
 
 								<li>
-									<a href="/study/admin.php/Teacher/add.html">
+									<a href="/GodZmooc/admin.php/Teacher/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加讲师
 									</a>
@@ -549,14 +547,14 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Course/index.html">
+									<a href="/GodZmooc/admin.php/Course/index.html">
 										<i class="icon-double-angle-right"></i>
 										目录列表
 									</a>
 								</li>
 
 								<li>
-									<a href="/study/admin.php/Course/add.html">
+									<a href="/GodZmooc/admin.php/Course/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加目录
 									</a>
@@ -572,14 +570,14 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/News/index.html">
+									<a href="/GodZmooc/admin.php/News/index.html">
 										<i class="icon-double-angle-right"></i>
 										新闻列表
 									</a>
 								</li>
 
 								<li>
-									<a href="/study/admin.php/News/add.html">
+									<a href="/GodZmooc/admin.php/News/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加新闻
 									</a>
@@ -595,13 +593,13 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Adv/index.html">
+									<a href="/GodZmooc/admin.php/Adv/index.html">
 										<i class="icon-double-angle-right"></i>
 										广告列表
 									</a>
 								</li>
 								<li>
-									<a href="/study/admin.php/Adv/add.html">
+									<a href="/GodZmooc/admin.php/Adv/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加广告
 									</a>
@@ -618,7 +616,7 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Config/index.html">
+									<a href="/GodZmooc/admin.php/Config/index.html">
 										<i class="icon-double-angle-right"></i>
 										配置信息
 									</a>
@@ -635,7 +633,7 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Advice/index.html">
+									<a href="/GodZmooc/admin.php/Advice/index.html">
 										<i class="icon-double-angle-right"></i>
 										反馈列表
 									</a>
@@ -652,7 +650,7 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Download/index">
+									<a href="/GodZmooc/admin.php/Download/index">
 										<i class="icon-double-angle-right"></i>
 										下载列表
 									</a>
@@ -671,13 +669,13 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="/study/admin.php/Info/index.html">
+									<a href="/GodZmooc/admin.php/Info/index.html">
 										<i class="icon-double-angle-right"></i>
 										公告列表
 									</a>
 								</li>
 								<li>
-									<a href="/study/admin.php/Info/add.html">
+									<a href="/GodZmooc/admin.php/Info/add.html">
 										<i class="icon-double-angle-right"></i>
 										添加公告
 									</a>
@@ -732,7 +730,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
-								<form class="form-horizontal" role="form" method="post" action="/study/admin.php/Config/mod" enctype="multipart/form-data">
+								<form class="form-horizontal" role="form" method="post" action="/GodZmooc/admin.php/Config/mod" enctype="multipart/form-data">
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 网站标题： </label>
 
@@ -880,55 +878,55 @@
 
 		<!--[if !IE]> -->
 
-		<!--<script src="/study/Public/Admin/assets/js/jquery-2.0.3.min.js"></script>-->
-		<script src="/study/Public/Admin/assets/js/jquery-2.0.3.min.js"></script>
+		<!--<script src="/GodZmooc/Public/Admin/assets/js/jquery-2.0.3.min.js"></script>-->
+		<script src="/GodZmooc/Public/Admin/assets/js/jquery-2.0.3.min.js"></script>
 		
 
 		<!-- <![endif]-->
 
 		<!--[if IE]>
-<script src="/study/Public/Admin/assets/js/jquery-1.10.2.min.js"></script>
+<script src="/GodZmooc/Public/Admin/assets/js/jquery-1.10.2.min.js"></script>
 <![endif]-->
 
 		<!--[if !IE]> -->
 
 		<script type="text/javascript">
-			window.jQuery || document.write("<script src='/study/Public/Admin/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+			window.jQuery || document.write("<script src='/GodZmooc/Public/Admin/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
 		</script>
 
 		<!-- <![endif]-->
 
 		<!--[if IE]>
 <script type="text/javascript">
- window.jQuery || document.write("<script src='/study/Public/Admin/assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+ window.jQuery || document.write("<script src='/GodZmooc/Public/Admin/assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
 </script>
 <![endif]-->
 
 		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='/study/Public/Admin/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+			if("ontouchend" in document) document.write("<script src='/GodZmooc/Public/Admin/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
 		</script>
-		<script src="/study/Public/Admin/assets/js/bootstrap.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/typeahead-bs2.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/bootstrap.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/typeahead-bs2.min.js"></script>
 
 		<!-- page specific plugin scripts -->
 
 		<!--[if lte IE 8]>
-		  <script src="/study/Public/Admin/assets/js/excanvas.min.js"></script>
+		  <script src="/GodZmooc/Public/Admin/assets/js/excanvas.min.js"></script>
 		<![endif]-->
 
-		<script src="/study/Public/Admin/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/jquery.slimscroll.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/jquery.easy-pie-chart.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/jquery.sparkline.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/flot/jquery.flot.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/flot/jquery.flot.pie.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/flot/jquery.flot.resize.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/jquery.sparkline.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/flot/jquery.flot.resize.min.js"></script>
 
 		<!-- ace scripts -->
 
-		<script src="/study/Public/Admin/assets/js/ace-elements.min.js"></script>
-		<script src="/study/Public/Admin/assets/js/ace.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/ace-elements.min.js"></script>
+		<script src="/GodZmooc/Public/Admin/assets/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->
 

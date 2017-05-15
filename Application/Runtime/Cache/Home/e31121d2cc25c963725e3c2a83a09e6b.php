@@ -4,52 +4,52 @@
 <title><?php echo ($configs["title"]); ?></title>
 <meta name="keywords" content="<?php echo ($configs["keywords"]); ?>">
 <meta name="description" content="<?php echo ($configs["description"]); ?>">
-<script type="text/javascript" async src="/study/Public/Home/js/ga.js"></script>
-<script type="text/javascript" src="/study/Public/Home/js/jquery.js"></script>
-<script type="text/javascript" src="/study/Public/Home/js/course_list.js"></script>
+<script type="text/javascript" async src="/GodZmooc/Public/Home/js/ga.js"></script>
+<script type="text/javascript" src="/GodZmooc/Public/Home/js/jquery.js"></script>
+<script type="text/javascript" src="/GodZmooc/Public/Home/js/course_list.js"></script>
 
-<link href="/study/Public/Home/css/core.css" type="text/css" rel="stylesheet">
-<link href="/study/Public/Home/css/course_list.css" type="text/css" rel="stylesheet">
+<link href="/GodZmooc/Public/Home/css/core.css" type="text/css" rel="stylesheet">
+<link href="/GodZmooc/Public/Home/css/course_list.css" type="text/css" rel="stylesheet">
 
 <!--微专业major css/js-->
-<script src="/study/Public/Home/js/SpryAssets/SpryDOMUtils.js" type="text/javascript"></script>
-<script src="/study/Public/Home/js/major_small.js" type="text/javascript"></script>
-<link href="/study/Public/Home/css/major_small.css" type="text/css" rel="stylesheet">
+<script src="/GodZmooc/Public/Home/js/SpryAssets/SpryDOMUtils.js" type="text/javascript"></script>
+<script src="/GodZmooc/Public/Home/js/major_small.js" type="text/javascript"></script>
+<link href="/GodZmooc/Public/Home/css/major_small.css" type="text/css" rel="stylesheet">
 
 <!--计算机专业 css/js-->
-<script src="/study/Public/Home/js/major_inter.js" type="text/javascript"></script>
-<link href="/study/Public/Home/css/major_inter.css" type="text/css" rel="stylesheet">
+<script src="/GodZmooc/Public/Home/js/major_inter.js" type="text/javascript"></script>
+<link href="/GodZmooc/Public/Home/css/major_inter.css" type="text/css" rel="stylesheet">
 
 <!--互联网职业技能 css/js-->
-<script src="/study/Public/Home/js/major_skill.js" type="text/javascript"></script>
-<link href="/study/Public/Home/css/major_skill.css" type="text/css" rel="stylesheet">
+<script src="/GodZmooc/Public/Home/js/major_skill.js" type="text/javascript"></script>
+<link href="/GodZmooc/Public/Home/css/major_skill.css" type="text/css" rel="stylesheet">
 
 <!--金融专业 css/js-->
-<script src="/study/Public/Home/js/major_money.js" type="text/javascript"></script>
-<script src="/study/Public/Home/js/specialWebCommon.js" type="text/javascript"></script>
-<link href="/study/Public/Home/css/major_money.css" type="text/css" rel="stylesheet">
+<script src="/GodZmooc/Public/Home/js/major_money.js" type="text/javascript"></script>
+<script src="/GodZmooc/Public/Home/js/specialWebCommon.js" type="text/javascript"></script>
+<link href="/GodZmooc/Public/Home/css/major_money.css" type="text/css" rel="stylesheet">
 
 <!--联系我们 css-->
-<link href="/study/Public/Home/css/advice/advice.css" type="text/css" rel="stylesheet">
-<link href="/study/Public/Home/css/advice/core.css" type="text/css" rel="stylesheet">
+<link href="/GodZmooc/Public/Home/css/advice/advice.css" type="text/css" rel="stylesheet">
+<link href="/GodZmooc/Public/Home/css/advice/core.css" type="text/css" rel="stylesheet">
 
 <!--退出登录 css/js-->
-<script src="/study/Public/Home/js/loginout.js" type="text/javascript"></script>
-<link href="/study/Public/Home/css/loginout.css" type="text/css" rel="stylesheet"></head>
+<script src="/GodZmooc/Public/Home/js/loginout.js" type="text/javascript"></script>
+<link href="/GodZmooc/Public/Home/css/loginout.css" type="text/css" rel="stylesheet"></head>
 
 <!--个人中心personal css/js-->
-<script src="/study/Public/Home/js/personalcenter.js" type="text/javascript"></script>
-<link href="/study/Public/Home/css/personalcenter.css" type="text/css" rel="stylesheet">
+<script src="/GodZmooc/Public/Home/js/personalcenter.js" type="text/javascript"></script>
+<link href="/GodZmooc/Public/Home/css/personalcenter.css" type="text/css" rel="stylesheet">
 
 <!--下载页download css/js-->
-<link href="/study/Public/Home/css/core.css" type="text/css" rel="stylesheet">
-<link href="/study/Public/Home/css/download/download.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="/study/Public/Home/css/download/b5m-plugin.css" type="text/css">
-<link rel="stylesheet" href="/study/Public/Home/css/download/b5m.botOrTopBanner.css" type="text/css">
+<link href="/GodZmooc/Public/Home/css/core.css" type="text/css" rel="stylesheet">
+<link href="/GodZmooc/Public/Home/css/download/download.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="/GodZmooc/Public/Home/css/download/b5m-plugin.css" type="text/css">
+<link rel="stylesheet" href="/GodZmooc/Public/Home/css/download/b5m.botOrTopBanner.css" type="text/css">
 
 <!--广告information css/js-->
-<script src="/study/Public/Home/js/information.js" type="text/javascript"></script>
-<link href="/study/Public/Home/css/information.css" type="text/css" rel="stylesheet">
+<script src="/GodZmooc/Public/Home/js/information.js" type="text/javascript"></script>
+<link href="/GodZmooc/Public/Home/css/information.css" type="text/css" rel="stylesheet">
 
 </head>
 <body id="find" class="auto-1449466894298-parent" style="padding-top: 60px;">
@@ -58,12 +58,12 @@
   <div class="g-hd f-bg1 m-yktNav " id="j-topnav" style="background:#2F3440">
     <div class="g-flow">
       <div class="f-pr f-cb">
-        <div class="m-logo f-cb"> <a class="f-fl" hidefocus="true" href="/study/index.php" target="_self" data-index="网易云课堂logo"> <img class="f-fl img" src="/study/Public/Home/imgs/logo3.png" title="云课堂" width="153" height="28"> </a> </div>
+        <div class="m-logo f-cb"> <a class="f-fl" hidefocus="true" href="/GodZmooc/index.php" target="_self" data-index="GodZmooclogo"> <img class="f-fl img" src="/GodZmooc/Public/Home/imgs/logo3.png" title="GodZmooc" width="153" height="28"> </a> </div>
         <div class="u-navcatebtn"> <a href="" target="_blank" class="cbtn" id="j-nav-catebtn"></a> </div>
         <div class="m-navrgt f-fr f-cb f-pr j-navright">
           <div class="userinfo f-fr f-cb f-pr">
 		  <?php if($_SESSION["id"] == null): ?><div class="unlogin f-fr">
-				<a href="/study/index.php/login/index.html" class="j-nav-loginBtn" id="j-login" data-index="登陆注册">登录/注册</a>
+				<a href="/GodZmooc/index.php/login/index.html" class="j-nav-loginBtn" id="j-login" data-index="登陆注册">登录/注册</a>
 			</div><?php endif; ?>
           </div>
 
@@ -78,47 +78,47 @@
 		 <?php if($_SESSION["id"] != null): ?><div id="login">
 			<div><a href="<?php echo ($_SESSION["id"]); ?>">消息</a></div>
 			<div><a href="<?php echo ($_SESSION["id"]); ?>">课程包</a></div>
-			<img src="/study/Public/Upload/<?php echo ($_SESSION["pic"]); ?>"/>
+			<img src="/GodZmooc/Public/Upload/<?php echo ($_SESSION["pic"]); ?>"/>
 			<div id="login1">
-				<div><a href="/study/index.php/Detail/personal/id/<?php echo ($_SESSION["id"]); ?>"><?php echo ($_SESSION["username"]); ?></a></div>
-				<div><a href="/study/index.php/Detail/personalCenter/id/<?php echo ($_SESSION["id"]); ?>">个人主页</a></div>
-				<div><a href="/study/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>">反馈意见</a></div>
-				<div><a href="/study/index.php/Detail/index/id/<?php echo ($_SESSION["id"]); ?>">设置</a></div>
-				<div><a href="/study/index.php/Index/logout/id/<?php echo ($_SESSION["id"]); ?>">退出</a></div>
+				<div><a href="/GodZmooc/index.php/Detail/personal/id/<?php echo ($_SESSION["id"]); ?>"><?php echo ($_SESSION["username"]); ?></a></div>
+				<div><a href="/GodZmooc/index.php/Detail/personalCenter/id/<?php echo ($_SESSION["id"]); ?>">个人主页</a></div>
+				<div><a href="/GodZmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>">反馈意见</a></div>
+				<div><a href="/GodZmooc/index.php/Detail/index/id/<?php echo ($_SESSION["id"]); ?>">设置</a></div>
+				<div><a href="/GodZmooc/index.php/Index/logout/id/<?php echo ($_SESSION["id"]); ?>">退出</a></div>
 			</div>
 		 </div><?php endif; ?>
 
         </div>
-        <div class="m-nav f-cb j-navFind"> <a data-index="首页" class="nitem" href="/study/index.php"" hidefocus="true">首页</a>
+        <div class="m-nav f-cb j-navFind"> <a data-index="首页" class="nitem" href="/GodZmooc/index.php"" hidefocus="true">首页</a>
 			<div class="f-pr f-cb nitem x-hoverItem">
 				<span>课程体系</span>
 				<div class="f-pa u-navdropmenu x-child">
 					<span class="arrr f-pa"></span>
-					<a data-index="大学计算机专业" class="dropitem f-f0" href="/study/index.php/major/major_inter" hidefocus="true">
+					<a data-index="大学计算机专业" class="dropitem f-f0" href="/GodZmooc/index.php/major/major_inter" hidefocus="true">
 						<span>大学计算机专业</span>
 					</a>
-					<a data-index="互联网职业技能" class="dropitem f-f0" href="/study/index.php/major/major_skill" hidefocus="true">
+					<a data-index="互联网职业技能" class="dropitem f-f0" href="/GodZmooc/index.php/major/major_skill" hidefocus="true">
 						<span>互联网职业技能</span></a>
-					<a data-index="金融专业" class="dropitem f-f0 last" href="/study/index.php/major/major_money" hidefocus="true">
+					<a data-index="金融专业" class="dropitem f-f0 last" href="/GodZmooc/index.php/major/major_money" hidefocus="true">
 						<span>金融专业</span>
 					</a>
 				</div>
 			</div>
-          <a data-index="微专业" class="nitem" href="/study/index.php/major/major_small" hidefocus="true">微专业</a>
+          <a data-index="微专业" class="nitem" href="/GodZmooc/index.php/major/major_small" hidefocus="true">微专业</a>
 		  <div class="nitem f-f0 x-hoverItem" hidefocus="true"> <span class="j-dropmenubtn" data-href="/client/download.htm" id="auto-id-1449466857063">下载APP</span>
             <div class="u-navapptip f-pa x-child">
               <div class="arrr f-pa"></div>
-              <img src="/study/Public/Home/imgs/nav_qrcode.png" class="ewm f-fl" alt="下载APP" title="下载APP">
+              <img src="/GodZmooc/Public/Home/imgs/nav_qrcode.png" class="ewm f-fl" alt="下载APP" title="下载APP">
               <div class="rcon f-fr">
                 <h4 class="txt">扫码下载官方App</h4>
-                <a data-index="appstore下载" href="/study/index.php/User/download" class="store apple"><img src="/study/Public/Home/imgs/upload(1).png" width="150px"></a> <a data-index="android下载" href="/study/index.php/User/download" class="store android"><img src="/study/Public/Home/imgs/upload(2).png"></a> </div>
+                <a data-index="appstore下载" href="/GodZmooc/index.php/User/download" class="store apple"><img src="/GodZmooc/Public/Home/imgs/upload(1).png" width="150px"></a> <a data-index="android下载" href="/GodZmooc/index.php/User/download" class="store android"><img src="/GodZmooc/Public/Home/imgs/upload(2).png"></a> </div>
             </div>
           </div>
           <a data-index="学习中心" class="nitem" href="" hidefocus="true">学习中心</a>
           <div class="xxzxtip f-pa f-dn" id="j-xxzxtip-black-nav">
             <div class="arrr f-pa"></div>
             <div class="text f-fl">
-              <p>“我的云课堂”改名为“学习中心”啦！</p>
+              <p>“我的GodZ”改名为“学习中心”啦！</p>
               <p>你可以在学习中心查看所有学习记录和进度。</p>
             </div>
             <div class="xxzxtip-close f-pa" id="j-xxzxtip-close-black-nav">X</div>
@@ -158,35 +158,34 @@
           <div id="auto-id-1450193523776" class="about_con j-aboutCon f-bg f-pr" style="display:none;" data-type="1">
             <h2 class="tabtit">关于我们</h2>
             <div class="about_content j-aboutContent">
-              <p>云
-                课堂，是网易公司倾力打造的在线实用技能学习平台，该平台于2012年12月底正式上线，主要为学习者提供海量、优质的课程，课程结构严谨，用户可以根据
-                自身的学习程度，自主安排学习进度。云课堂的宗旨是，为每一位想真真正正学到些实用知识、技能的学习者，提供贴心的一站式学习服务。</p>
+              <p>GodZmooc，是GodZmooc公司倾力打造的在线实用技能学习平台，该平台于2012年12月底正式上线，主要为学习者提供海量、优质的课程，课程结构严谨，用户可以根据
+                自身的学习程度，自主安排学习进度。GodZmooc的宗旨是，为每一位想真真正正学到些实用知识、技能的学习者，提供贴心的一站式学习服务。</p>
               <div class="b-20"></div>
-              立足于实用性的要求，云课堂精选各类课程，与多家权威教育、培训机构建立合作，课程数量已达1100+，课时总数超16000,涵盖实用软件、IT与互联
+              立足于实用性的要求，GodZmooc精选各类课程，与多家权威教育、培训机构建立合作，课程数量已达1100+，课时总数超16000,涵盖实用软件、IT与互联
               网、外语学习、生活家居、兴趣爱好、职场技能、金融管理、考试认证、中小学、亲子教育等十余大门类，其中不乏数量可观、制作精良的独家课程。从用户生活、
               职业、娱乐等多个维度，为用户打造实用学习平台。
               <div class="b-20"></div>
-              云课堂目前拥有Web端、iPad端。
+              GodZmooc目前拥有Web端、iPad端。
               <p></p>
               <br>
               <h3>特色板块</h3>
               <p> <b>学习计划</b><br>
-                云课堂学习计划为云课堂独有研发，针对不同用户的学习需求，推荐或由用户自己创建更适合自己程度的学习内容和周期。截至目前为止，云课堂学习计划数量已经
+                GodZmooc学习计划为GodZmooc独有研发，针对不同用户的学习需求，推荐或由用户自己创建更适合自己程度的学习内容和周期。截至目前为止，GodZmooc学习计划数量已经
                 达7700+。学习计划的制作，让用户的学习更具有系统性，同时能根据计划的周期，更有效的提高学习效率，优化学习效果。 </p>
               <br>
               <p> <b>题库</b><br>
-                题库是云课堂为各类热门考试的考生研发的题目类学习模块。目前用户可参加公务员、建筑师、会计等多类考试的真题练习测试，并参与题目的分析讨论。同时，题库会和相应考试类课程、学习计划有机整合，完整辅助考生整个备考过程。 </p>
+                题库是GodZmooc为各类热门考试的考生研发的题目类学习模块。目前用户可参加公务员、建筑师、会计等多类考试的真题练习测试，并参与题目的分析讨论。同时，题库会和相应考试类课程、学习计划有机整合，完整辅助考生整个备考过程。 </p>
               <br>
               <h4>特色功能</h4>
               <p> <b>笔记</b><br>
-                云课堂笔记功能为视频学习做了专门设计。学习者添加笔记时会自动保存视频的当前时间点，回顾笔记时就可观看当时视频。学习者还可以对视频截图或上传本地图片保存到笔记当中， 使得保存老师的板书、重要信息更快捷。<br>
+                GodZmooc笔记功能为视频学习做了专门设计。学习者添加笔记时会自动保存视频的当前时间点，回顾笔记时就可观看当时视频。学习者还可以对视频截图或上传本地图片保存到笔记当中， 使得保存老师的板书、重要信息更快捷。<br>
                 学习者可将笔记公开，也可评论、收藏他人笔记，加强了用户间学习交流。另外，笔记可同步到自己的“有道云笔记”中，或分享到各种社交网络，更便于集中管理。 </p>
               <br>
               <p> <b>进度管理与学习监督</b><br>
-                云课堂更关注用户个人学习的效率和效果。学习者学习过程中，云课堂支持自动\手动标记课时完成状态，或标记为“重要\有疑问”等，以便用户回顾和把控学习进度。另外，用户可设置课程的学习时间安排，云课堂会定期发送提醒通知用户。 </p>
+                GodZmooc更关注用户个人学习的效率和效果。学习者学习过程中，GodZmooc支持自动\手动标记课时完成状态，或标记为“重要\有疑问”等，以便用户回顾和把控学习进度。另外，用户可设置课程的学习时间安排，GodZmooc会定期发送提醒通知用户。 </p>
               <br>
               <p> <b>问答</b><br>
-                学习者在学习过程中可随时提问。云课堂会根据问题内容将问题呈现给相关学习者或讲师，帮助用户快速获得答案。 </p>
+                学习者在学习过程中可随时提问。GodZmooc会根据问题内容将问题呈现给相关学习者或讲师，帮助用户快速获得答案。 </p>
             </div>
           </div>
           
@@ -214,23 +213,23 @@
 		 <div id="auto-id-1450193523778" style="display: none;" class="about_con j-aboutCon f-bg f-pr" data-type="3">
             <h2 class="tabtit">法律条款</h2>
             <div class="about_content">
-              <h2>网易云课堂服务协议 <span class="f-fs0">更新时间: 2015年3月25日</span></h2>
+              <h2>GodZmooc服务协议 <span class="f-fs0">更新时间: 2015年3月25日</span></h2>
               <br>
-              <p> 欢迎使用网易云课堂服务，为了保障您的权益，请在使用网易云课堂服务之前，详细阅读此服务协议（以下简称“本协议”）所有内容，<b>特别是加粗部分</b>。 </p>
+              <p> 欢迎使用GodZmooc服务，为了保障您的权益，请在使用GodZmooc服务之前，详细阅读此服务协议（以下简称“本协议”）所有内容，<b>特别是加粗部分</b>。 </p>
               <br>
-              <p> 本协议内容包括协议正文、本协议下述协议明确援引的其他协议、网易公司已经发布的或将来可能发布的各类规则。所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。除另行明确声明外，您使用网易云课堂服务均受本协议约束。 </p>
+              <p> 本协议内容包括协议正文、本协议下述协议明确援引的其他协议、GodZmooc公司已经发布的或将来可能发布的各类规则。所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。除另行明确声明外，您使用GodZmooc服务均受本协议约束。 </p>
               <br>
               <p> 第一条 定义<br>
-                网易云课堂指网易公司所有和经营的有关教育、学习等数字内容聚合、管理和分发的平台产品，旨在为用户提供教学内容的生成、传播和消费服务。 </p>
+                GodZmooc指GodZmooc公司所有和经营的有关教育、学习等数字内容聚合、管理和分发的平台产品，旨在为用户提供教学内容的生成、传播和消费服务。 </p>
               <br>
-              <p> 第二条 网易云课堂服务协议的修订<br>
-                <b>本协议及相关服务条款如由于业务发展需要进行修订的，网易公司将在网易云课堂公布。您可前往查阅最新版协议条款。在网易公司修改上述条款后，如果您不接受修改后的条款，您可以选择终止使用网易云课堂服务。您继续使用网易公司平台作品的行为将被视为已接受了修改后的协议</b>。 </p>
+              <p> 第二条 GodZmooc服务协议的修订<br>
+                <b>本协议及相关服务条款如由于业务发展需要进行修订的，GodZmooc公司将在GodZmooc公布。您可前往查阅最新版协议条款。在GodZmooc公司修改上述条款后，如果您不接受修改后的条款，您可以选择终止使用GodZmooc服务。您继续使用GodZmooc公司平台作品的行为将被视为已接受了修改后的协议</b>。 </p>
               <br>
               <p> 第三条 帐号使用规则<br>
-                1、您可浏览网易云课堂上的课程信息，如您希望学习该课程，您需先登录您的帐号，或注册网易邮箱帐号并登录。您在学习课程时登录的帐号是网易公司确认您身份的唯一依据。<br>
+                1、您可浏览GodZmooc上的课程信息，如您希望学习该课程，您需先登录您的帐号，或注册邮箱帐号并登录。您在学习课程时登录的帐号是GodZmooc公司确认您身份的唯一依据。<br>
                 <br>
-                2、<b>您确认：您是具备完全民事权利能力和完全民事行为能力的自然人、法人或其他组织，有能力对您使用网易云课堂服务的一切行为独立承担责任。若您不具备前述主体资格，网易公司在依据法律规定或本协议约定要求您承担责任时，有权向您的监护人追偿</b>。<br>
-                3、您在使用网易云课堂服务时填写、登录、使用的帐号名称、头像、个人简介等帐号信息资料应遵守法律法规、社会主义制度、国家利益、公民合法权益、公共秩
+                2、<b>您确认：您是具备完全民事权利能力和完全民事行为能力的自然人、法人或其他组织，有能力对您使用GodZmooc服务的一切行为独立承担责任。若您不具备前述主体资格，GodZmooc公司在依据法律规定或本协议约定要求您承担责任时，有权向您的监护人追偿</b>。<br>
+                3、您在使用GodZmooc服务时填写、登录、使用的帐号名称、头像、个人简介等帐号信息资料应遵守法律法规、社会主义制度、国家利益、公民合法权益、公共秩
                 序、社会道德风尚和信息真实性等七条底线，不得在帐号信息资料中出现违法和不良信息，且您保证在填写、登录、使用帐号信息资料时，不得有以下情形:<br>
               </p>
               <ul>
@@ -244,17 +243,17 @@
                 <li>（8）侮辱或者诽谤他人，侵害他人合法权益的；</li>
                 <li>（9）含有法律、行政法规禁止的其他内容的。</li>
               </ul>
-              若用户登录、使用帐号头像、个人简介等帐号信息资料存在违法和不良信息的，网易公司有权采取通知限期改正、暂停使用等措施。对于冒用关联机构或社会名人登录、使用、填写帐号名称、头像、个人简介的，网易公司有权取消该帐号在网易云课堂上使用，并向政府主管部门进行报告。<br>
-              4、您应保管好自己的帐号和密码，如因您未保管好自己的帐号和密码而对自己、网易公司或第三方造成损害的，您将自负全部责任。另外，您应对您帐号中的所有
-              活动和事件负全责。您可随时改变帐号的密码。您同意若发现有非法使用您的帐号或出现安全漏洞的情况，立即通告网易公司，网易公司将会尽力予以妥善解决。<br>
+              若用户登录、使用帐号头像、个人简介等帐号信息资料存在违法和不良信息的，GodZmooc公司有权采取通知限期改正、暂停使用等措施。对于冒用关联机构或社会名人登录、使用、填写帐号名称、头像、个人简介的，GodZmooc公司有权取消该帐号在GodZmooc上使用，并向政府主管部门进行报告。<br>
+              4、您应保管好自己的帐号和密码，如因您未保管好自己的帐号和密码而对自己、GodZmooc公司或第三方造成损害的，您将自负全部责任。另外，您应对您帐号中的所有
+              活动和事件负全责。您可随时改变帐号的密码。您同意若发现有非法使用您的帐号或出现安全漏洞的情况，立即通告GodZmooc公司，GodZmooc公司将会尽力予以妥善解决。<br>
               <p></p>
               <br>
               <p> 第四条 数据<br>
-                <b>除非另有证明，网易公司储存在其服务器上的数据是您使用网易云课堂服务的唯一有效证据</b>。 </p>
+                <b>除非另有证明，GodZmooc公司储存在其服务器上的数据是您使用GodZmooc服务的唯一有效证据</b>。 </p>
               <br>
-              <p> 第五条 网易云课堂使用规则<br>
-                1、您须对自己在使用网易云课堂服务过程中的行为承担法律责任。您承担法律责任的形式包括但不限于：对受到侵害者进行赔偿；以及在网易公司首先承担了因您的行为导致的行政处罚或侵权损害赔偿责任后，您应给予网易公司等额的赔偿。<br>
-                2、您了解并同意，网易公司有权应有权部门的要求，向其提供您提交给网易公司或在使用网易云课堂服务中存储于网易公司服务器的必要信息。如您涉嫌侵犯他人合法权益，则网易公司有权在初步判断涉嫌侵权行为存在的情况下，向权利人提供关于您的前述必要信息。 </p>
+              <p> 第五条 GodZmooc使用规则<br>
+                1、您须对自己在使用GodZmooc服务过程中的行为承担法律责任。您承担法律责任的形式包括但不限于：对受到侵害者进行赔偿；以及在GodZmooc公司首先承担了因您的行为导致的行政处罚或侵权损害赔偿责任后，您应给予GodZmooc公司等额的赔偿。<br>
+                2、您了解并同意，GodZmooc公司有权应有权部门的要求，向其提供您提交给GodZmooc公司或在使用GodZmooc服务中存储于GodZmooc公司服务器的必要信息。如您涉嫌侵犯他人合法权益，则GodZmooc公司有权在初步判断涉嫌侵权行为存在的情况下，向权利人提供关于您的前述必要信息。 </p>
               <br>
               <p> 第六条 其他约定<br>
                 1、不可抗力：<br>
@@ -263,22 +262,22 @@
                 运营商的故障、计算机或互联网相关技术缺陷、互联网覆盖范围限制、计算机病毒、黑客攻击等因素，及其他合法范围内的不能预见、不能避免并不能克服的客观情
                 况</b>。 </p>
               <br>
-              <p> 2、服务中止、中断及终止：<b>网易公司根据自身商业决策等原因可能会选择中止、中断及中止平台服务。如有此
-                等情形发生，网易公司会采取公告的形式通知您。经国家行政或司法机关的生效法律文书确认您存在违法或侵权行为，或者网易公司根据自身的判断，认为您的行为
-                涉嫌违反《网易邮箱服务条款》、本协议内容或网易云课堂不时公布的使用规则等内容，或涉嫌违反法律法规的规定的，则网易公司有权中止、中断或终止向您提供
+              <p> 2、服务中止、中断及终止：<b>GodZmooc公司根据自身商业决策等原因可能会选择中止、中断及中止平台服务。如有此
+                等情形发生，GodZmooc公司会采取公告的形式通知您。经国家行政或司法机关的生效法律文书确认您存在违法或侵权行为，或者GodZmooc公司根据自身的判断，认为您的行为
+                涉嫌违反《邮箱服务条款》、本协议内容或GodZmooc不时公布的使用规则等内容，或涉嫌违反法律法规的规定的，则GodZmooc公司有权中止、中断或终止向您提供
                 服务，且无须为此向您或任何第三方承担责任</b>。 </p>
               <br>
-              <p> 3、所有权及知识产权：网易公司平台上所有内容，包括但不限于文字、软件、声音、图片、录像、图表、网站架构、网站画面的安排、网页设计、网易公司为您提
-                供的标有“版权所有，禁止转载”字样的教育内容均由网易公司或其他权利人依法拥有其知识产权，包括但不限于著作权、商标权、专利权等。非经网易公司或其他
-                权利人书面同意您不得擅自使用、修改、复制、传播、改变、散布、发行或发表上述内容。如有违反，您同意承担由此给网易公司或其他权利人造成的一切损失。<br>
+              <p> 3、所有权及知识产权：GodZmooc公司平台上所有内容，包括但不限于文字、软件、声音、图片、录像、图表、网站架构、网站画面的安排、网页设计、GodZmooc公司为您提
+                供的标有“版权所有，禁止转载”字样的教育内容均由GodZmooc公司或其他权利人依法拥有其知识产权，包括但不限于著作权、商标权、专利权等。非经GodZmooc公司或其他
+                权利人书面同意您不得擅自使用、修改、复制、传播、改变、散布、发行或发表上述内容。如有违反，您同意承担由此给GodZmooc公司或其他权利人造成的一切损失。<br>
                 <br>
                 4、通知：所有发给您的通知都可通过电子邮件、常规的信件或在网站显著位置公告的方式进行传送。<br>
                 <br>
                 5、本协议适用中华人民共和国的法律（不含冲突法）。 当本协议的任何内容与中华人民共和国法律相抵触时，应当以法律规定为准，同时相关内容将按法律规定进行修改或重新解释，而本协议其他部分的法律效力不变。 <br>
                 <br>
-                6、本协议自发布之日起实施，并构成您和网易公司之间的共识。<br>
+                6、本协议自发布之日起实施，并构成您和GodZmooc公司之间的共识。<br>
                 <br>
-                7、网易公司不行使、未能及时行使或者未充分行使本协议或者按照法律规定所享有的权利，不应被视为放弃该权利，也不影响网易公司在将来行使该权利。<br>
+                7、GodZmooc公司不行使、未能及时行使或者未充分行使本协议或者按照法律规定所享有的权利，不应被视为放弃该权利，也不影响GodZmooc公司在将来行使该权利。<br>
                 <br>
                 8、如果您对本协议内容有任何疑问，请发送邮件至我们的客服邮箱： <a hidefocus="true" href="mailto:study@service.netease.com">study@service.netease.com</a>。<br>
               </p>
@@ -312,16 +311,16 @@
                   &nbsp;&nbsp;（2）核对帖子内容，奖励内容优质的用户发帖，惩罚违规发帖 <br>
                   &nbsp;&nbsp;（3）鼓励积极参与、学习努力的同学，处罚违规同学 <br>
                   &nbsp;&nbsp;（4）维护本课程管理团队，使管理团队稳定运转 <br>
-                  &nbsp;&nbsp;（5）保持与云课堂运营人员沟通，反馈管理情况<br>
+                  &nbsp;&nbsp;（5）保持与GodZmooc运营人员沟通，反馈管理情况<br>
                   4. 参与者有权质疑版主的管理行为，如遇管理违规，可将申诉情况发至本课程的综合讨论区。<br>
                   5. 讲师、机构、版主可共同制定所属课程讨论区版规。 </p>
                 <br>
                 <p> <b>第四部分：奖励</b><br>
                   1. 原创或转发的、对他人有讨论或借鉴价值的、发言理性积极、回复热烈的帖子被被标记为精华帖；其中适用范围最广、每个学员都能有所受益的，可同时置顶。<br>
                   2. 老师或版主发布的、对讨论区交流秩序有重要影响的，或包含提供给每个学员的基础服务的帖子，可标记为置顶；其中收到学生好评、学生回复热烈的，可同时加精华。<br>
-                  3. 加为精华的发帖，机构、讲师和版主可推荐给云课堂运营人员，通过其它渠道给予奖励和推荐。<br>
-                  4. 发布多个精华或置顶帖的普通参与者、版主、讲师、机构，可推荐给云课堂运营人员，通过其他渠道给予奖励和推荐。<br>
-                  5. 服务态度积极、频繁帮助他人的普通参与者、版主、讲师、机构，可推荐给云课堂运营人员，举荐其为版主，或通过其他渠道给予奖励和推荐。 </p>
+                  3. 加为精华的发帖，机构、讲师和版主可推荐给GodZmooc运营人员，通过其它渠道给予奖励和推荐。<br>
+                  4. 发布多个精华或置顶帖的普通参与者、版主、讲师、机构，可推荐给GodZmooc运营人员，通过其他渠道给予奖励和推荐。<br>
+                  5. 服务态度积极、频繁帮助他人的普通参与者、版主、讲师、机构，可推荐给GodZmooc运营人员，举荐其为版主，或通过其他渠道给予奖励和推荐。 </p>
                 <br>
                 <p> <b>第五部分：惩罚</b><br>
                   1. 讨论区出现包括但不限于如下情况的帖子时，机构、讲师、版主原则上提醒为主，情况恶略的，有权在不通知发布者的情况下删除内容、封禁发布者。 <br>
@@ -330,7 +329,7 @@
                   &nbsp;&nbsp;（3）发布明显存在科学漏洞、疑神疑鬼、不可证伪的内容 <br>
                   &nbsp;&nbsp;（4）发布广告、与课程无关内容 2. 处罚操作由机构、讲师、版主执行，执行处罚操作后，需专门发帖说明<br>
                   3. 机构、讲师、版主可根据日常管理经验补充处罚情况列表<br>
-                  4. 被处罚者可回复处罚帖提起申诉，申诉需有详细理由。云课堂运营人员将介入申诉评审过程，并发表最终结论。 </p>
+                  4. 被处罚者可回复处罚帖提起申诉，申诉需有详细理由。GodZmooc运营人员将介入申诉评审过程，并发表最终结论。 </p>
                 <br>
                 <p> <b>第六部分：操作方法</b><br>
                   1. 进入讨论区 <br>
@@ -365,22 +364,22 @@
 		<div id="auto-id-1450193523780" style="display: none;" class="about_con j-aboutCon f-bg f-pr" data-type="6">
             <h2 class="tabtit">如何创建一份好的学习计划</h2>
             <div class="about_content">
-              <p> 无论是兴趣爱好，还是职业发展需要，为你的学习指定一个合理清晰的学习计划是成功的重要一步。云课堂帮助您轻松制定在线学习计划，安排和监督你的学习。</p>
+              <p> 无论是兴趣爱好，还是职业发展需要，为你的学习指定一个合理清晰的学习计划是成功的重要一步。GodZmooc帮助您轻松制定在线学习计划，安排和监督你的学习。</p>
               <h3> 现在就来学习如何创建一个好的学习计划吧~</h3>
-              <p>能够制作课程内容的前提是你已经获得了云课堂制作课程的权限，当你成功登录至云课堂后，可以在“我的云课堂”中找到制作课程的按钮。点击该按钮就正式进入制作课程的流程中。</p>
+              <p>能够制作课程内容的前提是你已经获得了GodZmooc制作课程的权限，当你成功登录至GodZmooc后，可以在“我的GodZmooc”中找到制作课程的按钮。点击该按钮就正式进入制作课程的流程中。</p>
               <p>1、当你首次使用制作课程功能时，请填写下面的电子协议，它将更好地保护你的相关权益。</p>
-              <img src="/study/Public/Home/imgs/step1.png">
+              <img src="/GodZmooc/Public/Home/imgs/step1.png">
               <p>2、之后，你将进入步骤引导流程中，按照流程中的规定渐次填写相关内容，必填内容的前方会有标记哦~</p>
-              <img src="/study/Public/Home/imgs/step2.png">
+              <img src="/GodZmooc/Public/Home/imgs/step2.png">
               <p>3、当你根据流程填写完毕对应信息后，来到信息管理页。这个页面中你可以：</p>
-              <img src="/study/Public/Home/imgs/step3.png">
+              <img src="/GodZmooc/Public/Home/imgs/step3.png">
               <p>4、如果你对某个任务有特别说明，比如课时对应PPT下载地址或你的课时笔记，也可以将这些说明加入学习计划中~</p>
-              <img src="/study/Public/Home/imgs/step4.png">
+              <img src="/GodZmooc/Public/Home/imgs/step4.png">
               <p>5、选择某个课程图片或上传图片作为该计划的封面，方便查看和使用该计划。</p>
-              <img src="/study/Public/Home/imgs/step5.png">
+              <img src="/GodZmooc/Public/Home/imgs/step5.png">
               <p>6、如果你还来不及完成整个计划，没关系~，点击页面底部的“保存草稿”按钮先将它保存为草稿。<br>
                 你可以在“我的学习计划”页面找到并继续编辑它啦~</p>
-              <img src="/study/Public/Home/imgs/step6.png">
+              <img src="/GodZmooc/Public/Home/imgs/step6.png">
               <p>7、发布成功后，可以进入学习页面逐个检查每个任务是否创建成功。以下两种情况请特别注意：<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;（1）贴入web页面链接失效，显示错误信息。请及时删除该任务。<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;（2）贴入web页面存在自动跳出问题。由于部分网站设有反嵌套机制，会自动跳出。您可以删除该任务，并将该<br>
@@ -393,7 +392,7 @@
             <h2 class="tabtit">意见反馈</h2>
             <div class="about_content j-aboutContent">
               <div class="m-feedbackSys">
-			  <form method="post" action="/study/index.php/User/advice">
+			  <form method="post" action="/GodZmooc/index.php/User/advice">
                 <div class="title f-cb">
                   <p class="feed-tit"><em class="f-sign">*</em>标题</p>
                   <div class="f-cb">
@@ -590,24 +589,24 @@
         <div class="share f-cb">
 			<p class="tit">关注我们：</p>
 			<a href="#" class="weibo" target="_blank" data-index="关注我们_微博">
-				<img src="/study/Public/Home/imgs/1.png">
+				<img src="/GodZmooc/Public/Home/imgs/1.png">
 			</a> 
 			<a href="#" class="renren" target="_blank" data-index="关注我们_人人">
-				<img src="/study/Public/Home/imgs/2.png">
+				<img src="/GodZmooc/Public/Home/imgs/2.png">
 			</a>
 			<a href="javascript:void(0)" class="yixin f-pr" data-index="关注我们_易信">
-				<img src="/study/Public/Home/imgs/3.png">
+				<img src="/GodZmooc/Public/Home/imgs/3.png">
 				<div class="tipQrcode f-pa">
-					<div class="qrImag"> <img src="/study/Public/Home/imgs/yixin.png" width="120px" height="120px" alt="加云课堂易信好友"> </div>
+					<div class="qrImag"> <img src="/GodZmooc/Public/Home/imgs/yixin.png" width="120px" height="120px" alt="加GodZmooc易信好友"> </div>
 					<p class="qrTitle">易信号：study163</p>
 					<div class="tip f-pa"></div>
 				</div>
 			</a>
 			<a href="javascript:void(0)" class="weixin f-pr" data-index="关注我们_微信">
-				<img src="/study/Public/Home/imgs/4.png">
+				<img src="/GodZmooc/Public/Home/imgs/4.png">
 				<div class="tipQrcode f-pa">
 					<div class="qrImag">
-						<img src="/study/Public/Home/imgs/weixin.png" width="120px" height="120px" alt="加云课堂微信好友">
+						<img src="/GodZmooc/Public/Home/imgs/weixin.png" width="120px" height="120px" alt="加GodZmooc微信好友">
 					</div>
 					<p class="qrTitle">微信号：study163</p>
 					<div class="tip f-pa"></div>
@@ -617,11 +616,11 @@
         <div class="copy">©<span>1997-2015</span> <?php echo ($configs["copyright"]); ?></div>
       </div>
       <div class="ftrt f-fr">
-		<a href="/study/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="关于我们">关于我们</a>
-		<a href="/study/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="联系我们">联系我们</a>
-		<a href="/study/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="帮助中心">帮助中心</a>
-		<a href="/study/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="内容招募">内容招募</a>
-		<a href="/study/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="意见反馈">意见反馈</a>
+		<a href="/GodZmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="关于我们">关于我们</a>
+		<a href="/GodZmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="联系我们">联系我们</a>
+		<a href="/GodZmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="帮助中心">帮助中心</a>
+		<a href="/GodZmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="内容招募">内容招募</a>
+		<a href="/GodZmooc/index.php/User/advice/id/<?php echo ($_SESSION["id"]); ?>" target="_blank" data-index="意见反馈">意见反馈</a>
 		<a href="" target="_blank" data-index="中国大学MOOC">中国大学MOOC</a>
         <div class="f-cb mobile f-fr">
           <div class="tit f-fl">移动App:</div>
@@ -632,7 +631,7 @@
     </div>
   </div>
 </div>
-<script src="/study/Public/Home/css/reuglar.0.3.1.js"></script>
+<script src="/GodZmooc/Public/Home/css/reuglar.0.3.1.js"></script>
 <div class="f-dn">玩转 C语言 基础课堂,Fenby,IT与互联网 编程语言,玩转 C语言 基础课堂，用最基础易懂的形象比喻方式来学习和理解C语言的基础知识点，去掉冗繁的基础概念知识，最大化的在线练习编写代码中找到知识重点，以练为主，以学为辅，两者在快乐和最快时间里都可兼得，省去学习C语言看书和找习题的麻烦。  适用人群：喜欢编程，担心编程很难的零基础人群，想快速学好C语言基础，想用新鲜学习方式和不喜欢看书的C语言初学者。</div>
 <div class="m-side-operation auto-1449466944905" id="j-side-operation">
   <div class="side-service-item">
@@ -650,10 +649,10 @@
 		<span class="item-hover-text">手机课堂</span>
 		<div class="qrcode-bubble">
         <div class="qrcode">
-			<div class="download"><img src="/study/Public/Home/imgs/sideBar90.png">
+			<div class="download"><img src="/GodZmooc/Public/Home/imgs/sideBar90.png">
 			  <p>下载App</p>
 			</div>
-			<div class="follow-weixin"><img src="/study/Public/Home/imgs/weixin.png">
+			<div class="follow-weixin"><img src="/GodZmooc/Public/Home/imgs/weixin.png">
 			  <p>关注微信</p>
 			</div>
 		</div>
